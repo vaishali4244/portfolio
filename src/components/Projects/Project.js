@@ -25,7 +25,7 @@ const Project = () => {
           <div className="card-body fashion ">
             <h4 className="card-font3">Fashion Store</h4>
             <p >Skills used: <span>React.js, CSS, HTML </span></p>
-            <a href="https://elaborate-blancmange-219fe7.netlify.app/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
+            <a href="https://vastram.netlify.app/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/fashion_store_vastram" className="button3 " target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Project = () => {
           <div className="card-body ">
             <h4 className="card-font3">Kitty Talk- For Cat Lovers</h4>
             <p >Skills used: <span>React.js, Redux, CSS, HTML </span></p>
-            <a href="https://endearing-vacherin-acfdf5.netlify.app/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
+            <a href="https://kittytalk.netlify.app/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/kittyTalk-project" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
