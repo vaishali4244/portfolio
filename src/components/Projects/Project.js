@@ -42,7 +42,7 @@ const Project = () => {
           <img src={require("../../assets/foodHunt.png")} className="anim" alt="Food Hunt Game" />
           <div className="card-body ">
             <h4 className="card-font3">Food Hunt Game</h4>
-            <p >Skills used: <span>Javascript, CSS, HTML </span></p>
+            <p >Skills used: <span>JavaScript, CSS, HTML </span></p>
             <a href="https://vaishali4244.github.io/food_hunt/foodhunt.html" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/food_hunt" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
@@ -51,7 +51,7 @@ const Project = () => {
           <img src={require("../../assets/Rlogin.png")} className="anim" alt="..." />
           <div className="card-body ">
             <h4 className="card-font3">Responsive Login</h4>
-            <p >Skills used: <span>Javascript, CSS, HTML </span></p>
+            <p >Skills used: <span>JavaScript, CSS, HTML </span></p>
             <a href="https://vaishali4244.github.io/Responsive-Login/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/Responsive-Login" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
@@ -61,7 +61,7 @@ const Project = () => {
           <img src={require("../../assets/ttt.png")} className="anim" alt="ticTacToe Game" />
           <div className="card-body ">
             <h4 className="card-font3">Tic-Tac-Toe Game</h4>
-            <p >Skills used: <span>Javascript, CSS, HTML </span></p>
+            <p >Skills used: <span>JavaScript, CSS, HTML </span></p>
             <a href="https://vaishali4244.github.io/MyTicTacToe/tic%20tac%20toe.html" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/MyTicTacToe" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
@@ -71,7 +71,7 @@ const Project = () => {
           <img src={require("../../assets/bg.png")} className="anim" alt="Gradient Generator" />
           <div className="card-body ">
             <h4 className="card-font3">Background Gradient Generator</h4>
-            <p >Skills used: <span>Javascript, CSS, HTML </span></p>
+            <p >Skills used: <span>JavaScript, CSS, HTML </span></p>
             <a href="https://vaishali4244.github.io/bg-generator/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/bg-generator" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
@@ -80,7 +80,7 @@ const Project = () => {
           <img src={require("../../assets/clock.png")} className="anim" alt="..." />
           <div className="card-body ">
             <h4 className="card-font3">Analog Clock</h4>
-            <p >Skills used: <span>Javascript, CSS, HTML </span></p>
+            <p >Skills used: <span>JavaScript, CSS, HTML </span></p>
             <a href="https://vaishali4244.github.io/analog-clock/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/analog-clock" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
