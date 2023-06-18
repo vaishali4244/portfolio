@@ -1,0 +1,124 @@
+.container3 {
+  height: auto;
+  width: 100%;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(170, 189, 241), orange);
+  border-top: 2px solid orange;
+}
+
+.heading3 {
+  text-shadow: 2px 3px orange;
+  color: rgb(13, 31, 59);
+}
+
+.content3 {
+  width: 90%;
+  padding: 2rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 4rem 2rem;
+}
+
+.card-body {
+  margin-left: 1em;
+}
+
+.anim {
+  height: 45vh;
+  width: auto;
+  margin: 0.8em;
+  transition: all 0.4s ease-out;
+}
+
+.container3 p {
+  width: 20rem;
+}
+
+.card {
+  width: 40rem;
+}
+
+.card-font3 {
+  font-weight: bolder;
+  color: rgb(13, 31, 59);
+}
+
+.box3 p {
+  color: green;
+  width: 80%;
+  text-align: justify;
+  font-weight: 700;
+  font-size: 1.15em;
+}
+
+.box3 span {
+  color: rgb(88, 7, 88);
+  font-weight: 700;
+}
+
+.anim:hover {
+  transform: scale(1.13);
+}
+
+.fashion {
+  margin-top: 1.7em;
+}
+
+.button3 {
+  border: 1px solid rgb(13, 31, 59);
+  font-size: 1.15em;
+  color: orange;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin: 4px;
+  text-decoration: none;
+  background: rgb(13, 31, 59);
+}
+
+.button3:hover {
+  color: rgb(170, 189, 241);
+  box-shadow: 2px 2px rgb(170, 189, 241), -2px -2px rgb(130, 150, 205);
+}
+
+@media only screen and (max-width:1180px) {
+  .content3 {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    width: 80vw;
+    padding: 0.5rem 0;
+  }
+
+  .box3 {
+    width: 32em;
+  }
+
+  .anim:hover {
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .box3 {
+    width: 22em;
+  }
+  .card-font3 {
+    font-size: 1.1em;
+    font-weight: lighter;
+  }
+  .button3 {
+    padding: 0.05em 1em;
+    border-radius: 10px;
+    margin: 4px 4px;
+  }
+  .anim {
+    height: 25vh;
+    padding: 0.2rem;
+  }
+  .card-body {
+    margin: 0;
+  }
+}

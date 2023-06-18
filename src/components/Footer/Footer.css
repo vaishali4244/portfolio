@@ -1,0 +1,140 @@
+.footer {
+  width: 100%;
+  height: 48vh;
+  background-color: #ffffff;
+}
+
+.container5 {
+  width: 50vw;
+  height: 39vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0em auto;
+}
+
+.social-links {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  margin-top: 2rem;
+  margin-bottom: 1em;
+}
+
+.gmail {
+  display: inline-block;
+  background-image: url('../../assets/gm.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 55px;
+  height: 40px;
+  color: #ffffff00;
+  text-decoration: none;
+  text-align: center;
+  line-height: 180px;
+}
+
+.gimage{
+  border: none;
+}
+
+.fit {
+  color: rgba(183, 193, 225, 0);
+}
+
+.limage {
+  display: inline-block;
+  background-image: url('../../assets/lin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  color: #ffffff00;
+  text-decoration: none;
+  text-align: center;
+  line-height: 200px;
+  margin-left: 12px;
+}
+
+.gitimage {
+  padding: 3px 1px;
+  display: inline-block;
+  background-image: url('../../assets/git.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  color: #ffffff00;
+  text-decoration: none;
+  text-align: center;
+  line-height: 200px;
+}
+
+.upArrow {
+  display: inline-block;
+  background-image: url('../../assets/arrow.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 200px;
+}
+
+.upArrow:hover{
+    transform: translateY(3px);
+  }
+
+.link:hover{
+  transform: translateY(-3px);
+}
+
+.text {
+  width: 100%;
+  height:10vh;
+  font-weight: lighter;
+  background-color: rgb(13, 31, 59);
+  color: rgb(148, 193, 208);
+  padding-top:4vh;
+  text-align: center;
+}
+
+footer a{
+  color: rgba(148, 193, 208, 0);
+}
+
+footer p a {
+  text-decoration: none;
+  color: rgb(148, 193, 208);
+}
+
+p a:hover,
+active {
+  color: rgb(116, 152, 167);
+}
+
+@media screen and (min-width: 861px) and (max-width: 1000px) { 
+  .social-links {
+    padding: 5px 40px;
+    margin-top: 1rem;
+    margin-bottom: 0.5em;
+  }
+}
+@media only screen and (max-width:860px) {
+  .social-links {
+    padding: 5px 40px;
+    margin-top: 0rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .upArrow {
+  display: none;
+  }
+}

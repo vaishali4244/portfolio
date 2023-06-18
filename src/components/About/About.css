@@ -1,0 +1,104 @@
+.container1 {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, orange, rgb(170, 189, 241));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2vh 3vw;
+    border-bottom: 2px solid rgb(13, 31, 59);
+}
+
+h2 {
+    font-size: calc(4.5rem + .9vw) !important;
+}
+
+.heading1 {
+    color: rgb(13, 31, 59);
+    height: 25vh;
+    width: 500px;
+    text-shadow: 4px 3px rgb(105, 146, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.about {
+    height: 40vh;
+    padding: 5px 10px;
+    /* margin-bottom:20px ; */
+    width: 80vw;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: rgb(65, 17, 109);
+}
+
+.profile {
+    height: 35vh;
+    width: auto;
+    margin-right: 3vw;
+}
+
+.self {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.button1 {
+    margin: 20px 5px;
+    display: block;
+    /* margin-bottom: 14vh; */
+    padding: 8px 20px;
+    background-color: rgb(6, 6, 32);
+    color: orange;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 0 5px 2px rgb(105, 146, 213);
+}
+
+.button1:hover {
+    box-shadow: 0 0 5px 2px rgba(6, 6, 32, 0.776);
+    color: rgb(105, 146, 213);
+}
+
+@media only screen and (max-width:1000px) {
+    .container1 {
+        padding: 0.5% 0.5%;
+    }
+
+    .about {
+        font-size: 1em;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .heading1 {
+        height: 15vh;
+    }
+
+    .button1 {
+        margin: 0.4em 1em;
+        display: block;
+        padding: 5px 20px;
+        background-color: rgb(6, 6, 32);
+        color: orange;
+        text-decoration: none;
+        border-radius: 12px;
+        font-weight: lighter;
+    }
+}

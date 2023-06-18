@@ -1,0 +1,45 @@
+.navbar {
+    padding: 15px 13px;
+    width: 100%;
+    background-color: rgb(13, 31, 59);
+    height: 10vh;
+}
+
+.navigation {
+    font-weight: bold;
+    text-decoration: none;
+    width: 95vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+li {
+    list-style: none;
+    padding: 0.5vh 2vw;
+}
+
+.nav {
+    font-size: 1.6em;
+    padding: 0px 30px;
+    color: rgb(136, 172, 185);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav:hover {
+    color: orange;
+}
+
+@media only screen and (max-width:800px) {
+    .nav {
+        padding: 0 4vw;
+        color: orange;
+        font-weight: lighter;
+        font-size: 1em;
+    }
+
+    .nav:hover {
+        font-weight: bold;
+    }
+}
