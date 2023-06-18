@@ -34,7 +34,7 @@ const HomePage = () => {
       </div>
       <div className='intro-div'>
         <h1 className='intro'>Hi, my name is Vaishali. </h1>
-        <h1 className='intro'> I am a Web Developer.</h1>
+        <h1 className='intro'> I am a React Developer.</h1>
        
       </div>
       <div id="about" ref={aboutRef}>
