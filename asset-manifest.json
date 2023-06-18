@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.765e6503.css",
+    "main.js": "/portfolio/static/js/main.569e7db4.js",
+    "static/js/787.202b8111.chunk.js": "/portfolio/static/js/787.202b8111.chunk.js",
+    "static/media/face-detector.png": "/portfolio/static/media/face-detector.e68baf9ca602adaa59e5.png",
+    "static/media/fashionStore.png": "/portfolio/static/media/fashionStore.c7ff7060eccefe4f3ffe.png",
+    "static/media/kittyTalk.png": "/portfolio/static/media/kittyTalk.58fbc2bb724570923a26.png",
+    "static/media/profile.png": "/portfolio/static/media/profile.c6a2753f85248224db52.png",
+    "static/media/foodHunt.png": "/portfolio/static/media/foodHunt.3c69bed03bc85aae72ff.png",
+    "static/media/bg.png": "/portfolio/static/media/bg.a7f29185cceb9a697713.png",
+    "static/media/clock.png": "/portfolio/static/media/clock.435424daeeea729af2de.png",
+    "static/media/lin.png": "/portfolio/static/media/lin.6ac77341c7a1f1743ba6.png",
+    "static/media/Rlogin.png": "/portfolio/static/media/Rlogin.4b40bc895745db18bd69.png",
+    "static/media/ttt.png": "/portfolio/static/media/ttt.5c437480f9f2b61a61ea.png",
+    "static/media/git.png": "/portfolio/static/media/git.1395694baacdd0560adc.png",
+    "static/media/arrow.png": "/portfolio/static/media/arrow.f9142fc3c8f344ba678b.png",
+    "index.html": "/portfolio/index.html",
+    "main.765e6503.css.map": "/portfolio/static/css/main.765e6503.css.map",
+    "main.569e7db4.js.map": "/portfolio/static/js/main.569e7db4.js.map",
+    "787.202b8111.chunk.js.map": "/portfolio/static/js/787.202b8111.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.765e6503.css",
+    "static/js/main.569e7db4.js"
+  ]
+}
