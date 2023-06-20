@@ -43,7 +43,7 @@ const Project = () => {
           <div className="card-body ">
             <h4 className="card-font3">Food Hunt Game</h4>
             <p >Skills used: <span>JavaScript, CSS, HTML </span></p>
-            <a href="https://vaishali4244.github.io/food_hunt/foodhunt.html" className="button3" target="_blank" rel="noreferrer">Go Live</a>
+            {/* <a href="https://vaishali4244.github.io/food_hunt/foodhunt.html" className="button3" target="_blank" rel="noreferrer">Go Live</a> */}
             <a href="https://github.com/vaishali4244/food_hunt" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
