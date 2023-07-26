@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+const resume = require("../../assets/vaishaliResume.pdf");
 
 const About = () => {
     return (
@@ -16,7 +17,8 @@ const About = () => {
                     I've created projects using React.js, JavaScript, Redux, CSS, HTML, Node.js, Bootstrap and much more!
                 </p>
                 </div>
-                <a className = "button1"  href="https://drive.google.com/file/d/1C8ukNCBkleHNWAzg4kO1IvMwOh53vraN/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
+                <a className = "button1"  href={resume} target="_blank" rel="noreferrer">View Resume</a>
+               
             </div>
         </div>
     )
