@@ -13,7 +13,7 @@ const Project = () => {
           <img src={require("../../assets/face-detector.png")} className="anim" alt="face detection preview" />
           <div className="card-body  ">
             <h4 className="card-font3 ">Face-Detection App: Caught-U</h4>
-            <p >Skills used: <span>React.js, JavaScript, Node.js, PostgreSQL, CSS, HTML, Postman, Bootstrap, Git</span></p>
+            <p >Skills used: <span>React.js, JavaScript, Node.js, PostgreSQL, CSS, HTML, Postman, Bootstrap</span></p>
             <a href="https://vaishali4244.github.io/face-recognizer/" className="button3  " target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/face-recognizer" className="button3  " target="_blank" rel="noreferrer">Frontend Code</a>
             <a href="https://github.com/vaishali4244/face_detector_backend" className="button3 " target="_blank" rel="noreferrer">Backend Code</a>
