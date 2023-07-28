@@ -21,6 +21,15 @@ const Project = () => {
         </div>
 
         <div className="card box3" >
+          <img src={require("../../assets/news.png")} className="anim" alt="..." />
+          <div className="card-body ">
+            <h4 className="card-font3">News Of World : News-App</h4>
+            <p >Skills used: <span>React.Js, Javascript, CSS, BootStrap, HTML, VS code </span></p>
+            <a href="https://github.com/vaishali4244/News-app" className="button3" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </div>
+        
+        <div className="card box3" >
           <img src={require("../../assets/fashionStore.png")} className="anim" alt="Fashion Store website" />
           <div className="card-body fashion ">
             <h4 className="card-font3">Fashion Store</h4>
@@ -47,7 +56,8 @@ const Project = () => {
             <a href="https://github.com/vaishali4244/food_hunt" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
-        <div className="card box3" >
+       
+        {/* <div className="card box3" >
           <img src={require("../../assets/Rlogin.png")} className="anim" alt="..." />
           <div className="card-body ">
             <h4 className="card-font3">Responsive Login</h4>
@@ -55,7 +65,7 @@ const Project = () => {
             <a href="https://vaishali4244.github.io/Responsive-Login/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/Responsive-Login" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
-        </div>
+        </div> */}
 
         <div className="card  box3" >
           <img src={require("../../assets/ttt.png")} className="anim" alt="ticTacToe Game" />
