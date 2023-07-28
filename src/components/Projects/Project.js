@@ -33,7 +33,7 @@ const Project = () => {
           <img src={require("../../assets/fashionStore.png")} className="anim" alt="Fashion Store website" />
           <div className="card-body fashion ">
             <h4 className="card-font3">Fashion Store</h4>
-            <p >Skills used: <span>React.js, JavaScript, CSS, HTML, Git </span></p>
+            <p >Skills used: <span>React.js, JavaScript, CSS, HTML </span></p>
             <a href="https://vastram.netlify.app/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/fashion_store_vastram" className="button3 " target="_blank" rel="noreferrer">Code</a>
           </div>
