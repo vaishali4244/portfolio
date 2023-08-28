@@ -28,7 +28,6 @@ h2 {
 .about {
     height: 40vh;
     padding: 5px 10px;
-    /* margin-bottom:20px ; */
     width: 80vw;
     font-size: 1.5em;
     font-weight: bold;
@@ -59,7 +58,6 @@ h2 {
 .button1 {
     margin: 20px 5px;
     display: block;
-    /* margin-bottom: 14vh; */
     padding: 8px 20px;
     background-color: rgb(6, 6, 32);
     color: orange;

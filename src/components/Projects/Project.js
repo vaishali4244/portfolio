@@ -1,7 +1,5 @@
 import React from "react";
 import "./Project.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const kittyTalk = require("../../assets/kittyTalk.png");
 
 const Project = () => {
