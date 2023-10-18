@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-const resume = require("../../assets/vaishaliResume.pdf");
+const resume = require("../../assets/vaishaliRE.pdf");
 
 const About = () => {
     return (

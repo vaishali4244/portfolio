@@ -1,5 +1,6 @@
 import React from "react";
 import "./Project.css";
+const tictac = require("../../assets/tictac.png");
 const kittyTalk = require("../../assets/kittyTalk.png");
 
 const Project = () => {
@@ -37,6 +38,15 @@ const Project = () => {
           </div>
         </div>
         <div className="card box3" >
+          <img src={tictac} className="anim" alt="kittyTalk website preview" />
+          <div className="card-body ">
+            <h4 className="card-font3">Tic-Tac-Toe (React)</h4>
+            <p >Skills used: <span>React.js, JavaScript, Redux, CSS, HTML, Local Storage, Git </span></p>
+            <a href="https://redbluered.netlify.app/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
+            <a href="https://github.com/vaishali4244/react-tictactoe" className="button3" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </div>
+        <div className="card box3" >
           <img src={kittyTalk} className="anim" alt="kittyTalk website preview" />
           <div className="card-body ">
             <h4 className="card-font3">Kitty Talk- For Cat Lovers</h4>
@@ -46,11 +56,20 @@ const Project = () => {
           </div>
         </div>
         <div className="card  box3" >
+          <img src={require("../../assets/cake-shop.png")} className="anim" alt="Food Hunt Game" />
+          <div className="card-body ">
+            <h4 className="card-font3">Cake Shop Website</h4>
+            <p >Skills used: <span>JavaScript, CSS, HTML, Git </span></p>
+            <a href="https://vaishali4244.github.io/cake-shop-website/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
+            <a href="https://github.com/vaishali4244/cake-shop-website" className="button3" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </div>
+        <div className="card  box3" >
           <img src={require("../../assets/foodHunt.png")} className="anim" alt="Food Hunt Game" />
           <div className="card-body ">
             <h4 className="card-font3">Food Hunt Game</h4>
             <p >Skills used: <span>JavaScript, CSS, HTML, Git </span></p>
-            {/* <a href="https://vaishali4244.github.io/food_hunt/foodhunt.html" className="button3" target="_blank" rel="noreferrer">Go Live</a> */}
+            <a href="https://vaishali4244.github.io/food_hunt/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/food_hunt" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
