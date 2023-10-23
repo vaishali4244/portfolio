@@ -40,6 +40,7 @@
 
 .card {
   width: 34rem;
+  background: #cee0e8;
 }
 
 .card-font3 {
@@ -61,7 +62,8 @@
 }
 
 .anim:hover {
-  transform: scale(1.13);
+  transform: scale(1.25);
+  z-index: 100;
 }
 
 .fashion {

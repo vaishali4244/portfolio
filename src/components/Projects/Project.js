@@ -1,5 +1,6 @@
 import React from "react";
 import "./Project.css";
+const editor = require("../../assets/codeEditor.PNG");
 const tictac = require("../../assets/tictac.png");
 const kittyTalk = require("../../assets/kittyTalk.png");
 
@@ -8,6 +9,16 @@ const Project = () => {
     <div className="container3">
       <h2 className="heading3">MY PROJECTS </h2>
       <div className="content3">
+      <div className="card box3" >
+          <img src={editor} className="anim" alt="code editor preview" />
+          <div className="card-body ">
+            <h4 className="card-font3">Code Editor - HTML, CSS, JS</h4>
+            <p >Skills used: <span>React.Js, JavaScript, CSS, HTML, Material UI, Local Storage, Context API </span></p>
+            <a href="https://codechecker.netlify.app/" className="button3  " target="_blank" rel="noreferrer">Go Live</a>
+            <a href="https://github.com/vaishali4244/code-editor" className="button3" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </div>
+        
         <div className=" card box3" >
           <img src={require("../../assets/face-detector.png")} className="anim" alt="face detection preview" />
           <div className="card-body  ">
@@ -18,9 +29,9 @@ const Project = () => {
             <a href="https://github.com/vaishali4244/face_detector_backend" className="button3 " target="_blank" rel="noreferrer">Backend Code</a>
           </div>
         </div>
-
+        
         <div className="card box3" >
-          <img src={require("../../assets/news.png")} className="anim" alt="..." />
+          <img src={require("../../assets/news.png")} className="anim" alt="News Bulletin App preview" />
           <div className="card-body ">
             <h4 className="card-font3">News Of World : News-App</h4>
             <p >Skills used: <span>React.Js, JavaScript, CSS, BootStrap, HTML, VS code, Git </span></p>
@@ -37,8 +48,9 @@ const Project = () => {
             <a href="https://github.com/vaishali4244/fashion_store_vastram" className="button3 " target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
+
         <div className="card box3" >
-          <img src={tictac} className="anim" alt="kittyTalk website preview" />
+          <img src={tictac} className="anim" alt="tictactoe website preview" />
           <div className="card-body ">
             <h4 className="card-font3">Tic-Tac-Toe (React)</h4>
             <p >Skills used: <span>React.js, JavaScript, Redux, CSS, HTML, Local Storage, Git </span></p>
@@ -46,6 +58,7 @@ const Project = () => {
             <a href="https://github.com/vaishali4244/react-tictactoe" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
+
         <div className="card box3" >
           <img src={kittyTalk} className="anim" alt="kittyTalk website preview" />
           <div className="card-body ">
@@ -64,6 +77,7 @@ const Project = () => {
             <a href="https://github.com/vaishali4244/cake-shop-website" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
+
         <div className="card  box3" >
           <img src={require("../../assets/foodHunt.png")} className="anim" alt="Food Hunt Game" />
           <div className="card-body ">
@@ -73,8 +87,7 @@ const Project = () => {
             <a href="https://github.com/vaishali4244/food_hunt" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
-       
-        {/* <div className="card box3" >
+ <div className="card box3" >
           <img src={require("../../assets/Rlogin.png")} className="anim" alt="..." />
           <div className="card-body ">
             <h4 className="card-font3">Responsive Login</h4>
@@ -82,7 +95,7 @@ const Project = () => {
             <a href="https://vaishali4244.github.io/Responsive-Login/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/Responsive-Login" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
-        </div> */}
+        </div> 
 
         <div className="card  box3" >
           <img src={require("../../assets/ttt.png")} className="anim" alt="ticTacToe Game" />
