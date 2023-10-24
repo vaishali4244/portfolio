@@ -9,6 +9,72 @@
   width: 100%;
 }
 
+.home-content{
+display: flex;
+background: white;
+}
+
+.home-content .skill-icon{
+  height: 80vh;
+  width: 40vw;
+  /* border: 1px solid black; */
+  margin: 5vh;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill-box{
+  /* background: green; */
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  animation: start 12s linear infinite ;
+  transition: transform 4s ;
+}
+
+.skill-box:hover{
+  transform: rotate(900deg) ;
+  /* animation-iteration-count: infinite */
+}
+.end{
+  animation: end 12s linear infinite;
+}
+
+.skill-icon .bg-js{
+  background: #f0dc4e !important;
+}
+.skill-icon .bg-pm{
+  background: white !important;
+  height: 70px !important;
+  width: 70px !important;
+}
+.bg-pm .skills{
+  height: 65px !important;
+  width: 65px !important;
+}
+
+.skill-la{
+  height: 65px;
+  width: 65px;
+}
+
+.skills{
+  height: 50px;
+  width: 50px;
+  z-index: 150;
+}
+
+.skills-small{
+height: 40px !important;
+width: 40px !important;
+}
+
 .intro-div {
   width: 100%;
   height: 90vh;
@@ -33,7 +99,42 @@
   letter-spacing: 0.05em;
   animation:
     typing 3.0s steps(40, end),
-    color 3.0s steps(30, end);
+    color-code 3.0s steps(30, end);
+  
+}
+ 
+
+@keyframes start {
+  0%   {background:rgb(215, 85, 76); left:0px; top:0px;}
+  12.5%   {background:rgb(229, 229, 115); left:45px; top:0px;}
+  25%  {background:white; left:90px; top:0px;}
+  37.5%  {background:rgb(227, 112, 240); left:135px; top:0px;}
+  50%  {background:rgb(229, 229, 115); left:180px; top:0px;}
+  62.5%  {background:white; left:135px; top:0px;}
+  75%  {background:rgb(96, 220, 96); left:90px; top:0px;}
+  87.5%  {background:rgb(197, 203, 108); left:45px; top:0px;}
+  100% {background:rgb(236, 83, 83); left:0px; top:0px;}
+}
+@keyframes end {
+  0%   {background:rgb(241, 184, 77); left:180px; top:0px;}
+  25%   {background:white; left:90px; top:0px;}
+  50%  {background:rgb(81, 216, 81); left:0px; top:0px;}
+  75%  {background:white; left:90px; top:0px;}
+  100% {background:orange; left:180px; top:0px;}
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 @keyframes typing {
@@ -46,7 +147,7 @@
   }
 }
 
-@keyframes color {
+@keyframes color-code {
   0% {
     color: rgb(57, 126, 59);
   }
@@ -71,6 +172,9 @@
     color: rgb(6, 6, 32);
   }
 }
+
+
+
 
 @media only screen and (max-width:1180px) {
   .intro-div {
@@ -102,8 +206,69 @@
 
 }
 
-@media only screen and (max-width:500px) {
+/* @media only screen and (max-width:500px) {
   h1 {
     font-size: 1.2em;
   }
+} */
+@media screen and (max-width: 250px){
+.block{
+  width: 100vw;
+  height: 90vh;
+}
+.navi{
+  width: 100vw;
+  margin: 0;
+}
+.home-content{
+  flex-direction: column;
+}
+.home-content .skill-icon{
+  height: 20%;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin: 1vh;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skill-box{
+  position: relative;
+  height: 35px ;
+  width: 35px ;
+  animation: start 3s linear infinite ;
+ overflow: hidden;
+}
+.skills{
+  position: relative;
+  height: 25px !important;
+  width: 25px !important;
+}
+.bg-pm{
+  display: none;
+}
+.intro-div {
+  width: 100%;
+  height: 60vh;
+  padding: 10px 10px;
+}
+@keyframes start {
+  0%   {background:rgb(215, 85, 76); left:0px; top:0px;}
+  /* 12.5%   {background:rgb(229, 229, 115); left:10px; top:0px;}
+  25%  {background:white; left:20px; top:0px;}
+  37.5%  {background:rgb(227, 112, 240); left:30px; top:0px;} */
+  50%  {background:rgb(229, 229, 115); left:20px; top:0px;}
+  /* 62.5%  {background:white; left:30px; top:0px;}
+  75%  {background:rgb(96, 220, 96); left:20px; top:0px;}
+  87.5%  {background:rgb(197, 203, 108); left:10px; top:0px;} */
+  100% {background:rgb(236, 83, 83); left:0px; top:0px;}
+}
+@keyframes end {
+  0%   {background:rgb(241, 184, 77); left:30px; top:0px;}
+  /* 25%   {background:white; left:15px; top:0px;} */
+  50%  {background:rgb(81, 216, 81); left:0px; top:0px;}
+  /* 75%  {background:white; left:15px; top:0px;} */
+  100% {background:orange; left:20px; top:0px;}
+}
 }

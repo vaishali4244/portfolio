@@ -6,7 +6,20 @@
   word-spacing: 0.5px;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:250px) {
+ html{
+  font-size: 1em;
+ }
+ h1{
+  font-size: 1.3em !important;
+  font-weight: bold;
+}
+h2{
+  font-size: 2.5em !important;
+}
+}
+
+@media screen and (max-width: 800px) and (min-width: 250px) {
   h1{
     font-size: 1.5em !important;
     font-weight: bold;

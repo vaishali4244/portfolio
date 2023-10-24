@@ -1,23 +1,18 @@
 .navbar {
-    padding: 15px 13px;
-    width: 100%;
+    /* padding: 15px 13px; */
+    width: 100vw;
     background-color: rgb(13, 31, 59);
     height: 10vh;
-}
-
-.navigation {
-    font-weight: bold;
-    text-decoration: none;
-    width: 95vw;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
 }
 
-li {
+/* li {
     list-style: none;
     padding: 0.5vh 2vw;
-}
+} */
 
 .nav {
     font-size: 1.6em;
@@ -45,5 +40,21 @@ li {
 
     .nav:hover {
         font-weight: bold;
+    }
+}
+@media only screen and (max-width:250px) {
+    .navbar {
+        height: 15vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .nav {
+        font-size: 1em;
+        height: 38vh;
+        width: auto;
+        margin: 2px 1px;
+       
+        font-weight: 200;
     }
 }

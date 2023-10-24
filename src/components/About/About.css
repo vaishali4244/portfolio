@@ -1,6 +1,6 @@
 .container1 {
-    height: 100vh;
-    width: 100%;
+    height: 98vh;
+    width: 100vw;
     background: linear-gradient(to bottom, orange, rgb(170, 189, 241));
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     align-items: center;
     padding: 2vh 3vw;
     border-bottom: 2px solid rgb(13, 31, 59);
+   
 }
 
 h2 {
@@ -27,8 +28,9 @@ h2 {
 
 .about {
     height: 40vh;
-    padding: 5px 10px;
     width: 80vw;
+    padding: 5px 10px;
+    margin: 3px 5px;
     font-size: 1.5em;
     font-weight: bold;
     display: flex;
@@ -37,6 +39,11 @@ h2 {
     align-items: center;
     text-align: justify;
     color: rgb(65, 17, 109);
+}
+.about p{
+    display: block;
+/* width: 100vw; */
+padding: 5px;
 }
 
 .profile {
@@ -72,13 +79,9 @@ h2 {
     color: rgb(105, 146, 213);
 }
 
-@media only screen and (max-width:1000px) {
+@media screen and (max-width:1000px) and (min-width:250px) {
     .container1 {
         padding: 0.5% 0.5%;
-    }
-
-    .about {
-        font-size: 1em;
     }
 
     .profile {
@@ -86,7 +89,7 @@ h2 {
     }
 
     .heading1 {
-        height: 15vh;
+        height: 10vh;
     }
 
     .button1 {
@@ -98,5 +101,37 @@ h2 {
         text-decoration: none;
         border-radius: 12px;
         font-weight: lighter;
+    }
+}
+@media screen and (max-width: 250px){
+    .container1 {
+        height: auto;
+    }
+    .about {
+        height: 40vh;
+        width: 90vw;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        
+    }
+    .about .self p{
+        font-weight: 100;
+        font-size: 0.6em !important;
+        display: block;
+width: 100vw;
+padding: 5px;
+
+    }
+    .heading1 {
+        color: rgb(13, 31, 59);
+        height: 20vh;
+        margin: 5px 4px;
+    }
+    .profile {
+        display: none;
     }
 }
