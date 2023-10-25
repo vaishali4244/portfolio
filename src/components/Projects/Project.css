@@ -73,6 +73,7 @@
 .button3 {
   border: 1px solid rgb(13, 31, 59);
   font-size: 1.15em;
+  font-weight: 600;
   color: orange;
   padding: 5px 15px;
   border-radius: 10px;
@@ -103,7 +104,7 @@
   }
 }
 
-@media only screen and (max-width: 645px) {
+@media screen and (max-width: 645px) and (min-width: 250px){
   .box3 {
     width: 22em;
   }
@@ -122,5 +123,30 @@
   }
   .card-body {
     margin: 0;
+  }
+}
+@media only screen and (max-width: 250px){
+  .box3 {
+    width: 13em;
+    margin: 2px auto;
+    padding: 5px 2px;
+  }
+  .anim {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 0.2rem;
+  }
+  .button3 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 100;
+    padding: 5px 5px;
+  }
+  .card-body {
+      margin: 0;
+    /* margin-left: 0.1em; */
+    display: flex;
+    flex-direction: column;
   }
 }

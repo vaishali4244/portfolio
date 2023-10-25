@@ -2,9 +2,13 @@
 *{
   padding: 0;
   margin: 0;
-  font-weight: bold;
+ 
+  /* font-weight: bold; */
   word-spacing: 0.5px;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
 }
+ 
 
 @media only screen and (max-width:250px) {
  html{
@@ -15,8 +19,9 @@
   font-weight: bold;
 }
 h2{
-  font-size: 2.5em !important;
+  font-size: 1.5em !important;
 }
+
 }
 
 @media screen and (max-width: 800px) and (min-width: 250px) {

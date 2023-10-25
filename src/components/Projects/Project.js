@@ -71,7 +71,7 @@ const Project = () => {
         <div className="card  box3" >
           <img src={require("../../assets/cake-shop.png")} className="anim" alt="Food Hunt Game" />
           <div className="card-body ">
-            <h4 className="card-font3">Cake Shop Website</h4>
+            <h4 className="card-font3">Bakery Shop Website</h4>
             <p >Skills used: <span>JavaScript, CSS, HTML, Git </span></p>
             <a href="https://vaishali4244.github.io/cake-shop-website/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/cake-shop-website" className="button3" target="_blank" rel="noreferrer">Code</a>

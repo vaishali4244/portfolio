@@ -1,29 +1,29 @@
 .container1 {
-    height: 98vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
     background: linear-gradient(to bottom, orange, rgb(170, 189, 241));
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2vh 3vw;
+    padding: 2vh 0vw;
     border-bottom: 2px solid rgb(13, 31, 59);
-   
+
 }
 
 h2 {
-    font-size: calc(4.5rem + .9vw) !important;
+    font-size:5.5em
 }
 
 .heading1 {
     color: rgb(13, 31, 59);
-    height: 25vh;
-    width: 500px;
+    height: calc(98vh -75em);
+    width: 40vw;
     text-shadow: 4px 3px rgb(105, 146, 213);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2vh;
+    margin-top: 3vh;
 }
 
 .about {
@@ -31,7 +31,7 @@ h2 {
     width: 80vw;
     padding: 5px 10px;
     margin: 3px 5px;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -40,10 +40,11 @@ h2 {
     text-align: justify;
     color: rgb(65, 17, 109);
 }
-.about p{
+
+.about p {
     display: block;
-/* width: 100vw; */
-padding: 5px;
+    /* width: 98.5vw; */
+    padding: 5px;
 }
 
 .profile {
@@ -70,6 +71,7 @@ padding: 5px;
     color: orange;
     text-decoration: none;
     border-radius: 12px;
+    font-size: 1.2em;
     font-weight: bold;
     box-shadow: 0 0 5px 2px rgb(105, 146, 213);
 }
@@ -84,12 +86,9 @@ padding: 5px;
         padding: 0.5% 0.5%;
     }
 
-    .profile {
-        display: none;
-    }
 
     .heading1 {
-        height: 10vh;
+        height: 5vh;
     }
 
     .button1 {
@@ -103,35 +102,63 @@ padding: 5px;
         font-weight: lighter;
     }
 }
-@media screen and (max-width: 250px){
+
+@media screen and (max-width: 250px) {
     .container1 {
+        margin: 2px 2px;
         height: auto;
     }
+
+    .heading1 {
+        color: rgb(13, 31, 59);
+        height: 8vh;
+        width: auto;
+        margin: 5px 4px;
+        margin-bottom: 0.5vh;
+    }
+
     .about {
-        height: 40vh;
+        height: auto;
         width: 90vw;
-    
         display: flex;
+        padding: 2px 10px;
+    margin: 1px 5px;
+    }
+
+    .self {
+        display: flex;
+        width: 95vw;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: justify;
-        
+        /* text-align: justify;*/
+        margin: 1vh 1vw;
+         
     }
-    .about .self p{
+
+    .profile {
+        height: 35vh;
+        width:45vw;
+        /* z-index: 10; */
+    }
+
+    .about .self p {
         font-weight: 100;
         font-size: 0.6em !important;
         display: block;
-width: 100vw;
-padding: 5px;
+        width: 98.5vw;
+        padding: 5px;
 
     }
-    .heading1 {
-        color: rgb(13, 31, 59);
-        height: 20vh;
-        margin: 5px 4px;
+    .button1 {
+        margin: 0.1em 1em;
+        display: block;
+        padding: 5px 20px;
+        background-color: rgb(6, 6, 32);
+        color: orange;
+        text-decoration: none;
+        border-radius: 12px;
+        font-weight: lighter;
     }
-    .profile {
-        display: none;
-    }
+
 }
