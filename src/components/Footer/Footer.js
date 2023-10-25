@@ -10,7 +10,7 @@ const Footer = () => {
         <a rel="noreferrer" href="#top" className="upArrow">
         </a>
         <div className="social-links">
-          <button className="gimage link" rel="noreferrer" target="_blank"><GmailLink/>
+          <button className="gimage link" rel="noreferrer" target="_blank"><GmailLink />
             <i className="fit " area-hidden="true"></i>
           </button>
           <a className="limage link" rel="noreferrer" href="https://www.linkedin.com/in/vaishali-singh-a31b9231/" target="_blank">
@@ -20,11 +20,14 @@ const Footer = () => {
         </div>
 
       </div>
+      <div className="copy">
         <p className="text">
           ©2023 - Developed by
           <a rel="noreferrer" href="https://www.linkedin.com/in/vaishali-singh-a31b9231/" target="_blank"
           > Vaishali</a>
         </p>
+      </div>
+
     </footer>
 
   )

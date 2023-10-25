@@ -2,31 +2,15 @@
 *{
   padding: 0;
   margin: 0;
- 
-  /* font-weight: bold; */
   word-spacing: 0.5px;
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
 }
  
 
-@media only screen and (max-width:250px) {
- html{
-  font-size: 1em;
- }
- h1{
-  font-size: 1.3em !important;
-  font-weight: bold;
-}
-h2{
-  font-size: 1.5em !important;
-}
 
-}
-
-@media screen and (max-width: 800px) and (min-width: 250px) {
+@media screen and (max-width: 800px) and (min-width: 0px) {
   h1{
-    font-size: 1.5em !important;
+    font-size: calc(1rem-0.01vw) !important;
     font-weight: bold;
   }
   h2{

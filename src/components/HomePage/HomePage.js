@@ -42,8 +42,6 @@ const HomePage = () => {
         <Navigation setId={setId} />
       </div>
       <div className="home-content">
-      {/* <div className="skill-icon"> */}
-          {/* </div> */}
         <div className="skill-icon">
           <div className="skill-box">
             <img className="skills" src={react} alt="" />
@@ -63,10 +61,10 @@ const HomePage = () => {
 
         </div>
         <div className='intro-div'>
-          <h1 className='intro color'>Hi, my name is Vaishali. </h1>
-          <h1 className='intro color'> I am a React Developer.</h1>
+          <h1 className='intro'>Hi, my name is Vaishali. </h1>
+          <h1 className='intro'> I am a React Developer.</h1>
         </div>
-        
+
         <div className="skill-icon">
           <div className="skill-box end">
             <img className="skills skills-small " src={redux} alt="" />
@@ -84,8 +82,6 @@ const HomePage = () => {
             <img className="skills " src={postman} alt="" />
           </div>
         </div>
-        {/* <div className="skill-icon">
-          </div> */}
       </div>
       <div id="about" ref={aboutRef}>
         <About />

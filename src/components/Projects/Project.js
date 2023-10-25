@@ -7,9 +7,12 @@ const kittyTalk = require("../../assets/kittyTalk.png");
 const Project = () => {
   return (
     <div className="container3">
+
       <h2 className="heading3">MY PROJECTS </h2>
+
       <div className="content3">
-      <div className="card box3" >
+        
+        <div className="card box3" >
           <img src={editor} className="anim" alt="code editor preview" />
           <div className="card-body ">
             <h4 className="card-font3">Code Editor - HTML, CSS, JS</h4>
@@ -18,7 +21,7 @@ const Project = () => {
             <a href="https://github.com/vaishali4244/code-editor" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
-        
+
         <div className=" card box3" >
           <img src={require("../../assets/face-detector.png")} className="anim" alt="face detection preview" />
           <div className="card-body  ">
@@ -29,7 +32,7 @@ const Project = () => {
             <a href="https://github.com/vaishali4244/face_detector_backend" className="button3 " target="_blank" rel="noreferrer">Backend Code</a>
           </div>
         </div>
-        
+
         <div className="card box3" >
           <img src={require("../../assets/news.png")} className="anim" alt="News Bulletin App preview" />
           <div className="card-body ">
@@ -87,7 +90,7 @@ const Project = () => {
             <a href="https://github.com/vaishali4244/food_hunt" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
         </div>
- <div className="card box3" >
+        <div className="card box3" >
           <img src={require("../../assets/Rlogin.png")} className="anim" alt="..." />
           <div className="card-body ">
             <h4 className="card-font3">Responsive Login</h4>
@@ -95,7 +98,7 @@ const Project = () => {
             <a href="https://vaishali4244.github.io/Responsive-Login/" className="button3" target="_blank" rel="noreferrer">Go Live</a>
             <a href="https://github.com/vaishali4244/Responsive-Login" className="button3" target="_blank" rel="noreferrer">Code</a>
           </div>
-        </div> 
+        </div>
 
         <div className="card  box3" >
           <img src={require("../../assets/ttt.png")} className="anim" alt="ticTacToe Game" />
