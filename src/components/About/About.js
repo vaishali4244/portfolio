@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="container1">
             <div className="heading1">
-                <h2>ABOUT ME</h2>
+                <h2>ABOUT ME2</h2>
             </div>
             <div className="about">
                 <img className="profile" src={require("../../assets/profile.png")} alt=" vaishali" />
