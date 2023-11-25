@@ -1,22 +1,26 @@
-
-*{
+* {
   padding: 0;
   margin: 0;
   word-spacing: 0.5px;
   scroll-behavior: smooth;
 }
- 
+
+body {
+  background: linear-gradient(to bottom, rgba(154, 187, 240, 0.97), rgb(242, 208, 145), rgba(154, 187, 240, 0.97), rgb(242, 208, 145), rgba(154, 187, 240, 0.97));
+}
 
 
 @media screen and (max-width: 800px) and (min-width: 0px) {
-  h1{
+  h1 {
     font-size: calc(1rem-0.01vw) !important;
     font-weight: bold;
   }
-  h2{
+
+  h2 {
     font-size: 2.5em !important;
   }
-  h3{
+
+  h3 {
     font-size: 2.5em !important;
-  } 
+  }
 }

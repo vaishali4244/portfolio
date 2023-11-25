@@ -5,6 +5,7 @@ import About from "../About/About";
 import Project from "../Projects/Project";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import ParticlesBg from "particles-bg";
 const github = require("../../assets/logo/github.png");
 const react = require("../../assets/logo/react.png");
 const js = require("../../assets/logo/js.png");
@@ -42,6 +43,7 @@ const HomePage = () => {
         <Navigation setId={setId} />
       </div>
       <div className="home-content">
+      < ParticlesBg className='particles' color='#afff70' type="square" num={10} bg={true} />
         <div className="skill-icon">
           <div className="skill-box">
             <img className="skills" src={react} alt="" />
@@ -61,6 +63,7 @@ const HomePage = () => {
 
         </div>
         <div className='intro-div'>
+
           <h1 className='intro'>Hi, my name is Vaishali. </h1>
           <h1 className='intro'> I am a React Developer.</h1>
         </div>

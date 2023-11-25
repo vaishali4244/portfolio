@@ -61,8 +61,7 @@
 }
 
 .anim:hover {
-  transform: scale(1.25);
-  z-index: 100;
+  transform:scale(1.15);
 }
 
 .fashion {
