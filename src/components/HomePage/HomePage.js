@@ -21,10 +21,6 @@ const node = require("../../assets/logo/node.png");
 const HomePage = () => {
   const [id, setId] = useState();
 
-  const aboutRef = useRef()
-  const projectRef = useRef()
-  const contactRef = useRef()
-
   const scrollToElement = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -86,13 +82,13 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div id="about" ref={aboutRef}>
+      <div id="about" >
         <About />
       </div>
-      <div id="project" ref={projectRef}>
+      <div id="project" >
         <Project />
       </div>
-      <div id="contact" ref={contactRef}>
+      <div id="contact" >
         <Contact />
         <Footer />
       </div>
