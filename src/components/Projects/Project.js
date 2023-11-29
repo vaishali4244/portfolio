@@ -11,21 +11,29 @@ const Project = () => {
       <div className="content3">
         {data?.map((item, idx) => {
           return (
-            <div key={idx} className="card box3" >
+            <div key={idx} className="card" >
               <img src={item?.source} className="anim" alt={item?.alt} />
               <div className="card-body ">
                 <h4 className="card-font3">{item?.title}</h4>
                 <p >Skills used: <span>{item?.span}</span></p>
-                <a href={item?.live} className="button3" style={{ display: item?.display }} target="_blank" rel="noreferrer">Go Live</a>
-                <a href={item?.code} className="button3" target="_blank" rel="noreferrer">Code</a>
-                <a href={item?.bcode} className="button3" style={{ display: item?.displayCode }} target="_blank" rel="noreferrer">Backend Code</a>
+                <div className="button3-main">
+                  {item?.live ?
+                    <a href={item?.live} className="button3" target="_blank" rel="noreferrer">Go Live</a>
+                    : null}
+                  {item?.code &&
+                    <a href={item?.code} className="button3" target="_blank" rel="noreferrer">{item?.frontend ? item?.frontend : "Code"}</a>
+                  }
+                  {item?.bcode ?
+                    <a href={item?.bcode} className="button3" target="_blank" rel="noreferrer">Backend Code</a>
+                    : null}
+                </div>
               </div>
             </div>
           )
         })}
 
       </div>
-      
+
     </div>
 
   )

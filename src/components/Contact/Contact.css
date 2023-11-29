@@ -1,5 +1,5 @@
 .container4 {
-  max-height: 45vh;
+  max-height: 35vh;
   width: 95%;
   padding: 1.5rem 0.3rem;
   display: flex;
@@ -13,7 +13,7 @@
   color: rgb(13, 31, 59);
   width: 80vw;
   margin-bottom: 1.5rem;
-  margin-top: 3em;
+  margin-top: 1em;
   text-align: center;
   text-shadow: 3px 3px rgb(105, 146, 213);
 }

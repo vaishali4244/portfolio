@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +9,7 @@
 
 body {
   background: linear-gradient(to bottom, rgba(154, 187, 240, 0.97), rgb(242, 208, 145), rgba(154, 187, 240, 0.97), rgb(242, 208, 145), rgba(154, 187, 240, 0.97));
+  font-family: 'Lora', serif;
 }
 
 
