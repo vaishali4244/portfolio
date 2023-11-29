@@ -25,6 +25,7 @@ const Project = () => {
         })}
 
       </div>
+      
     </div>
 
   )
