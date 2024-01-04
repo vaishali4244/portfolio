@@ -30,7 +30,7 @@
 
 .gmail {
   display: inline-block;
-  background-image: url('../../assets/gm.png');
+  background-image: url("../../assets/gm.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 55px;
@@ -40,7 +40,7 @@
   line-height: 180px;
 }
 
-.gimage{
+.gimage {
   border: none;
 }
 
@@ -50,7 +50,7 @@
 
 .limage {
   display: inline-block;
-  background-image: url('../../assets/lin.png');
+  background-image: url("../../assets/lin.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 60px;
@@ -65,7 +65,7 @@
 .gitimage {
   padding: 3px 1px;
   display: inline-block;
-  background-image: url('../../assets/git.png');
+  background-image: url("../../assets/git.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 70px;
@@ -78,7 +78,7 @@
 
 .upArrow {
   display: inline-block;
-  background-image: url('../../assets/arrow.png');
+  background-image: url("../../assets/arrow.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 50px;
@@ -89,20 +89,20 @@
   margin-top: 10px;
 }
 
-.upArrow:hover{
-    transform: translateY(3px);
-  }
+.upArrow:hover {
+  transform: translateY(3px);
+}
 
-.link:hover{
+.link:hover {
   transform: translateY(-3px);
 }
 
-.copy{
+.copy {
   width: 100%;
-  height:10vh;
+  height: 10vh;
   font-weight: lighter;
-  background-color: rgb(13, 31, 59);
-  color: rgb(148, 193, 208);
+  background-color: #57555c;
+  color: #f45c7d;
   margin-bottom: 0;
   display: flex;
   justify-content: center;
@@ -111,25 +111,25 @@
 
 .text {
   font-size: 1.05rem;
- padding-top: 2vh;
+  padding-top: 2vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-footer a{
-  color: rgba(148, 193, 208, 0);
+footer a {
+  color: #f45c7d00;
 }
 
 footer p a {
   text-decoration: none;
-  color: rgb(148, 193, 208);
+  color: #85cdca;
 }
 
 p a:hover,
 active {
-  color: rgb(116, 152, 167);
+  color: #f45c7d;
 }
 
-@media only screen and (max-width:300px) {
-
+@media only screen and (max-width: 300px) {
   .social-links {
     width: 70vw;
     padding: 5px 10px;
@@ -138,7 +138,7 @@ active {
   }
 
   .gmail {
-    width:2.55em;
+    width: 2.55em;
     height: 2.1em;
   }
 

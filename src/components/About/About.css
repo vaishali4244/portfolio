@@ -11,9 +11,9 @@
 
 .heading1 {
     color: rgb(13, 31, 59);
-    height: 10vh;
+    height: 8vh;
     width: 80vw;
-    text-shadow: 4px 3px rgb(105, 146, 213);
+    text-shadow: 4px 3px #f45c7d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@
 h2 {
     padding-top: 2vh;
     margin-top: 2vh;
-    font-size: 5.5vw;
+    font-size: 4em;
 }
 
 .about {
@@ -36,7 +36,7 @@ h2 {
     min-height: 50vh;
     width: 90vw;
     padding: 5px 10px;
-    color: rgb(65, 17, 109);
+    color: #04121e;
     margin: 2vh 3vw;
 }
 
@@ -61,7 +61,9 @@ h2 {
     display: block;
     padding: 8px 20px;
     background-color: rgb(6, 6, 32);
-    color: orange;
+    color: #f45c7d;
+    
+    
     text-decoration: none;
     border-radius: 12px;
     font-size: 1.2em;
@@ -80,6 +82,7 @@ h2 {
         height: auto;
         width: 95vw;
         margin: 1vh 2vw;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     }
 
     .about .para p {

@@ -2,7 +2,6 @@
   width: 98.7vw;
   padding: 0;
   margin: 0;
- 
 }
 
 .navi {
@@ -100,7 +99,7 @@
   font-weight: bolder;
   white-space: nowrap;
   margin: 0 auto;
-  text-shadow: 4px 3px 1.5px rgb(105, 146, 213);
+  /* text-shadow: 4px 3px 1.5px rgb(105, 146, 213); */
   letter-spacing: 0.05em;
   animation:
     typing 3.0s steps(40, end),
@@ -108,7 +107,7 @@
 
 }
 
-@keyframes start {
+ @keyframes start { 
   0% {
     background: rgb(248, 87, 75);
     left: 0px;
@@ -162,9 +161,8 @@
     left: 0px;
     top: 0px;
   }
-}
-
-@keyframes end {
+} 
+ @keyframes end {
   0% {
     background: rgb(241, 115, 77);
     left: 5em;
@@ -194,7 +192,7 @@
     left: 5em;
     top: 0px;
   }
-}
+} 
 
 @keyframes typing {
 
@@ -210,11 +208,11 @@
 @keyframes color-code {
 
   0% {
-    color: rgb(57, 126, 59);
+    color: #f45c7d;
   }
 
   20% {
-    color: rgb(130, 44, 133);
+    color: rgb(44, 133, 46);
   }
 
   40% {

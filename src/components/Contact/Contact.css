@@ -15,14 +15,14 @@
   margin-bottom: 1.5rem;
   margin-top: 1em;
   text-align: center;
-  text-shadow: 3px 3px rgb(105, 146, 213);
+  text-shadow: 3px 3px #f45c7d;
 }
 
 .container4 .para {
   width: 70vw;
   font-size: 1.8rem;
   text-align: center;
-  color: rgb(88, 7, 88);
+  color: #04121e;
   margin: 0;
   font-weight: bold;
 }

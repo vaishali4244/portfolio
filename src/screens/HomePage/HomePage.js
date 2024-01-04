@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import './HomePage.css';
-import Navigation from "../Navigation/Navigation";
-import About from "../About/About";
-import Project from "../Projects/Project";
-import Contact from "../Contact/Contact";
-import Footer from "../Footer/Footer";
+import Navigation from "../../components/Navigation/Navigation";
+import About from "../../components/About/About";
+import ProjectList from "../../components/ProjectList/ProjectList";
+import Contact from "../../components/Contact/Contact";
+import Footer from "../../components/Footer/Footer";
 import ParticlesBg from "particles-bg";
+// import Experience from "../../components/Experience/Experience";
 const github = require("../../assets/logo/github.png");
 const react = require("../../assets/logo/react.png");
 const js = require("../../assets/logo/js.png");
@@ -18,7 +19,7 @@ const postman = require("../../assets/logo/postman.png");
 const node = require("../../assets/logo/node.png");
 
 
-const HomePage = () => {
+const HomePage = ({ navDisplay, setNavDisplay }) => {
   const [id, setId] = useState();
 
   const scrollToElement = (id) => {
@@ -36,10 +37,10 @@ const HomePage = () => {
   return (
     <div className="block">
       <div className="navi">
-        <Navigation setId={setId} />
+        <Navigation setId={setId} navDisplay={navDisplay} setNavDisplay={setNavDisplay} />
       </div>
       <div className="home-content">
-      < ParticlesBg className='particles' color='#afff70' type="square" num={10} bg={true} />
+        < ParticlesBg className='particles' color='#afff70' type="square" num={10} bg={true} />
         <div className="skill-icon">
           <div className="skill-box">
             <img className="skills" src={react} alt="" />
@@ -85,10 +86,11 @@ const HomePage = () => {
       <div id="about" >
         <About />
       </div>
-      <div id="project" >
-        <Project />
-      </div>
+      {/* <div id="project" > */}
+      <ProjectList />
+      {/* </div> */}
       <div id="contact" >
+        {/* <Experience/> */}
         <Contact />
         <Footer />
       </div>

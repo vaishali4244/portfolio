@@ -1,0 +1,164 @@
+.container3 {
+  width: 100%;
+  padding: 0.8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #f45c7d;
+}
+
+.heading3 {
+  text-shadow: 2px 2px #f45c7d;
+  color: rgb(13, 31, 59);
+}
+
+.content3 {
+  width: 100%;
+  padding: 0.8rem 2rem;
+}
+
+.pro-content {
+  width: 100%;
+  padding: 0.8rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 4rem 2rem;
+}
+
+.slick-slide > div {
+  margin: 0 0.3rem;
+}
+
+.card {
+  box-shadow: 2px 2px #355973, -2px -2px #355973;
+  height: 70vh;
+  background: #7395ae;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.pro-card {
+  box-shadow: 2px 2px 2px #355973, -2px -2px 2px #355973;
+  /* height: 70vh; */
+  background: #7395ae;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0.5rem;
+}
+
+.card-body {
+  margin-left: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.pro-img {
+  height: 40vh;
+  width: 90%;
+  margin-left: 0.8em;
+  transition: all 0.4s ease-out;
+}
+
+.pro-img:hover {
+  transform: scale(1.1);
+}
+
+.card-font3 {
+  font-weight: bolder;
+  color: #04121e;
+  margin-bottom: 0.3rem;
+}
+
+.card p {
+  color: rgb(13, 31, 59);
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-bottom: 0.2rem;
+}
+
+.pro-card span {
+  color: rgb(71, 10, 71);
+  font-weight: 100;
+}
+.pro-card p {
+  color: rgb(13, 31, 59);
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-bottom: 0.2rem;
+}
+
+.card span {
+  color: rgb(71, 10, 71);
+  font-weight: 100;
+}
+
+.button3-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+}
+
+.button3 {
+  border: 1px solid rgb(13, 31, 59);
+  font-size: 1.15em;
+  font-weight: 400;
+  color: #f45c7d;
+  padding: 5px 18px;
+  border-radius: 10px;
+  margin: 4px 1rem;
+  text-decoration: none;
+  background: rgb(13, 31, 59);
+  /* width:auto; */
+}
+
+.button3:hover {
+  box-shadow: 2px 2px rgb(170, 189, 241), -2px -2px rgb(130, 150, 205);
+  background: rgb(8, 18, 35);
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+  .pro-content {
+    grid-template-columns: repeat(2, auto);
+  }
+  .card {
+    width: 90vw;
+    height: auto;
+  }
+  .pro-content .pro-img:hover {
+    transform: scale(1.25);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .content3 {
+    width: 95%;
+  }
+
+  .pro-content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 90vw;
+    height: auto;
+  }
+
+  .pro-img {
+    width: 90%;
+  }
+  .pro-img:hover {
+    transform: none;
+  }
+
+  .button3 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 100;
+    padding: 5px 5px;
+  }
+}
