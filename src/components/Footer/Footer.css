@@ -112,7 +112,6 @@
 .text {
   font-size: 1.05rem;
   padding-top: 2vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 footer a {
@@ -121,12 +120,12 @@ footer a {
 
 footer p a {
   text-decoration: none;
-  color: #85cdca;
+  color: #f45c7d;
 }
 
 p a:hover,
 active {
-  color: #f45c7d;
+  color: #f1496df1;
 }
 
 @media only screen and (max-width: 300px) {
