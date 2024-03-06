@@ -50,7 +50,7 @@ const ProjectList = () => {
           {data?.map((item, idx) => {
             return (
               <div key={idx} className="card" >
-                <img src={item?.source} className="pro-img" alt={item?.alt} />
+                <img src={item?.source} className="pro-img2" alt={item?.alt} />
                 <div className="card-body ">
                   <h4 className="card-font3">{item?.title}</h4>
                   <p >Skills used: <span>{item?.span}</span></p>

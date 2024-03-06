@@ -7,14 +7,16 @@ const ProjectPage = (props) => {
     const navigate = useNavigate();
     const goToAboutPage = () => {
         navigate('/');
+        window.scrollTo(0, 0)
     };
+
     return (
         <>
-        <div className="navi">
-            <header className="navbar">
-                <div className="nav" onClick={goToAboutPage}>About Me</div>
-            </header>
-        </div>
+            <div className="navi">
+                <header className="navbar">
+                    <div className="nav" onClick={goToAboutPage}>About Me</div>
+                </header>
+            </div>
             <div className="container3">
 
                 <h2 className="heading3">MY PROJECTS </h2>

@@ -7,6 +7,7 @@ const Navigation = (props) => {
   const navigate = useNavigate();
   const goToProjectPage = () => {
     navigate('/projects');
+    window.scrollTo(0, 0)
   };
 
   return (

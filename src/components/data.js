@@ -9,10 +9,28 @@ export const data = [
     },
 
     {
+        source: require("../assets/weather.png"),
+        alt: "weather app preview",
+        title: "Get Weather App",
+        span: "React.Js, JavaScript, CSS3, HTML5, Chart.Js, Axios, Postman, Yarn",
+        live: "https://getweather247.netlify.app/",
+        code: "https://github.com/vaishali4244/weather-app",
+    },
+
+    {
+        source: require("../assets/budgetcart.png"),
+        alt: "E-commerce app preview",
+        title: "E-commerce App",
+        span: "React.Js, JavaScript, CSS3, HTML5, BootStrap, Lazy Loading, Axios, Yarn",
+        live: "https://budgetcart.netlify.app/",
+        code: "https://github.com/vaishali4244/e-commerce-website",
+    },
+
+    {
         source: require("../assets/face-detector.png"),
         alt: "face detection preview",
         title: "Face-Detection App",
-        span: "React.js, JavaScript, Node.js, PostgreSQL, CSS, HTML, Postman, Bootstrap",
+        span: "React.js, JavaScript, Node.js, PostgreSQL, CSS, HTML5, Postman, Bootstrap",
         live: "https://vaishali4244.github.io/face-recognizer/",
         code: "https://github.com/vaishali4244/face-recognizer",
         bcode: "https://github.com/vaishali4244/face_detector_backend",
@@ -31,7 +49,7 @@ export const data = [
         source: require("../assets/fashionStore.png"),
         alt: "e-commerce website",
         title: "Fashion Store",
-        span: "React.js, JavaScript, CSS, HTML",
+        span: "React.js, JavaScript, CSS, HTML, Lazy Loading",
         live: "https://vastram.netlify.app/",
         code: "https://github.com/vaishali4244/fashion_store_vastram",
     },

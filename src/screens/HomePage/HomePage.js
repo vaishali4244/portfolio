@@ -30,9 +30,9 @@ const HomePage = ({ navDisplay, setNavDisplay }) => {
   };
 
   useEffect(() => {
-    <h1 className='intro'> I am a React Developer.</h1>
     scrollToElement(id)
   }, [id])
+
 
   return (
     <div className="block">
@@ -62,7 +62,7 @@ const HomePage = ({ navDisplay, setNavDisplay }) => {
         <div className='intro-div'>
 
           <h1 className='intro'>Hi, my name is Vaishali. </h1>
-          <h1 className='intro'> I am a React Developer.</h1>
+          <h1 className='intro'> I am a ReactJS Developer.</h1>
         </div>
 
         <div className="skill-icon">
