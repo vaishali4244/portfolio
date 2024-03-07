@@ -27,8 +27,7 @@
   font-weight: bold;
 }
 
-@media only screen and (max-width:800px) {
-
+@media only screen and (max-width: 800px) {
   .container4 {
     height: auto;
   }
@@ -39,7 +38,7 @@
   }
 }
 
-@media only screen and (max-width:300px) {
+@media only screen and (max-width: 300px) {
   .container4 .para {
     font-size: 1rem;
   }

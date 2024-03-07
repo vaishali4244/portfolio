@@ -11,7 +11,6 @@ const Footer = () => {
         </a>
         <div className="social-links">
           <button className="gimage link" rel="noreferrer" target="_blank"><GmailLink />
-            <i className="fit " area-hidden="true"></i>
           </button>
           <a className="limage link" rel="noreferrer" href="https://www.linkedin.com/in/vaishali-singh-a31b9231/" target="_blank">
           </a>

@@ -34,7 +34,7 @@ export const data = [
         live: "https://vaishali4244.github.io/face-recognizer/",
         code: "https://github.com/vaishali4244/face-recognizer",
         bcode: "https://github.com/vaishali4244/face_detector_backend",
-        frontend:"Frontend Code"
+        frontend: "Frontend Code"
     },
 
     {
@@ -77,7 +77,7 @@ export const data = [
         alt: "cFood Hunt Game",
         title: "Bakery Shop Website",
         span: "JavaScript, CSS, HTML, Git",
-        live: "https://vaishali4244.github.io/cake-shop-website/" ,
+        live: "https://vaishali4244.github.io/cake-shop-website/",
         code: "https://github.com/vaishali4244/cake-shop-website",
     },
 
@@ -95,7 +95,7 @@ export const data = [
         alt: "code editor preview",
         title: "Responsive Login",
         span: "JavaScript, CSS, HTML, Git ",
-        live: "https://vaishali4244.github.io/Responsive-Login/" ,
+        live: "https://vaishali4244.github.io/Responsive-Login/",
         code: "https://github.com/vaishali4244/Responsive-Login",
     },
 
@@ -104,7 +104,7 @@ export const data = [
         alt: "ticTacToe Game",
         title: "Tic-Tac-Toe Game",
         span: "JavaScript, CSS, HTML, Git",
-        live: "https://vaishali4244.github.io/MyTicTacToe/tic%20tac%20toe.html" ,
+        live: "https://vaishali4244.github.io/MyTicTacToe/tic%20tac%20toe.html",
         code: "https://github.com/vaishali4244/MyTicTacToe",
     },
 
@@ -123,7 +123,7 @@ export const data = [
         title: "Analog Clock",
         span: "JavaScript, CSS, HTML, Git",
         live: "https://vaishali4244.github.io/analog-clock/",
-        code:"https://github.com/vaishali4244/analog-clock",
+        code: "https://github.com/vaishali4244/analog-clock",
     },
 
 ]

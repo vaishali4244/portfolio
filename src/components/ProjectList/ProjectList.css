@@ -1,5 +1,5 @@
 .container3 {
-  width: 100%;
+  width: 95%;
   padding: 0.8rem 2rem;
   display: flex;
   flex-direction: column;
@@ -14,13 +14,13 @@
 }
 
 .content3 {
-  width: 100%;
+  width: 97%;
   padding: 0.8rem 2rem;
   height: 80vh;
 }
 
 .pro-content {
-  width: 100%;
+  width: 97%;
   padding: 0.8rem 2rem;
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -32,20 +32,24 @@
 }
 
 .card {
-  /* box-sizing: border-box; */
   height: 67vh;
   background: #7395ae;
-  box-shadow:0 0 4px 4px #355973;
-  border: 1px solid rgb(13, 31, 59);
+  border: 1px solid rgb(44, 73, 121);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 8px;
 }
 
 .pro-card {
- background: #7395ae;
+  background: #7395ae;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 0.5rem;
-  box-shadow:0 0 4px 4px #355973;
-  border: 1px solid rgb(13, 31, 59);
+  border: 1px solid rgb(44, 73, 121);
+  border-radius: 8px;
+}
+
+.card,
+.pro-card:hover {
+  box-shadow: 0 0 4px 4px #355973;
 }
 
 .card-body {
@@ -57,10 +61,10 @@
 .pro-img {
   height: 40vh;
   width: 100%;
-  /* margin-left: 0.8em; */
   border-radius: 8px;
   transition: all 0.4s ease-out;
 }
+
 .pro-img2 {
   height: 40vh;
   width: 100%;
@@ -74,12 +78,12 @@
 }
 
 .card-font3 {
-  font-weight:bolder;
+  font-weight: bolder;
   color: #04121e;
   word-spacing: 0%;
   letter-spacing: 0;
   margin: 0;
-  /* margin-bottom: 0.3rem; */
+  font-size: 1.5rem;
 }
 
 .card p {
@@ -127,7 +131,7 @@
 }
 
 .button3:hover {
-  box-shadow: 2px 2px rgb(170, 189, 241), -2px -2px rgb(130, 150, 205);
+  box-shadow: 0 0 0 2px rgb(163, 182, 235);
   background: rgb(8, 18, 35);
 }
 
@@ -163,7 +167,7 @@
   }
 
   .pro-img {
-    width: 90%;
+    width: 100%;
   }
   .pro-img:hover {
     transform: none;

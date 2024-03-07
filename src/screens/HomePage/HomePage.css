@@ -15,7 +15,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 .home-content .skill-icon {
@@ -43,7 +42,7 @@
 
 .skill-box:hover {
   transform: rotate(900deg);
-  animation-iteration-count: infinite
+  animation-iteration-count: infinite;
 }
 
 .end {
@@ -101,13 +100,10 @@
   margin: 0 auto;
   /* text-shadow: 4px 3px 1.5px rgb(105, 146, 213); */
   letter-spacing: 0.05em;
-  animation:
-    typing 3.0s steps(40, end),
-    color-code 3.0s steps(30, end);
-
+  animation: typing 3s steps(40, end), color-code 3s steps(30, end);
 }
 
- @keyframes start { 
+@keyframes start {
   0% {
     background: rgb(248, 87, 75);
     left: 0px;
@@ -161,8 +157,8 @@
     left: 0px;
     top: 0px;
   }
-} 
- @keyframes end {
+}
+@keyframes end {
   0% {
     background: rgb(241, 115, 77);
     left: 5em;
@@ -192,10 +188,9 @@
     left: 5em;
     top: 0px;
   }
-} 
+}
 
 @keyframes typing {
-
   from {
     width: 0;
   }
@@ -206,7 +201,6 @@
 }
 
 @keyframes color-code {
-
   0% {
     color: #f45c7d;
   }
@@ -232,8 +226,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width:0px) {
-
+@media screen and (max-width: 1200px) and (min-width: 0px) {
   .home-content {
     display: flex;
     flex-direction: column;
@@ -265,7 +258,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
   .skill-icon,
   .skill-box,
   .skills {

@@ -26,26 +26,23 @@
   padding: 10px 40px;
   margin-top: 2vh;
   margin-bottom: 1vh;
+  background-color: #b0a295;
 }
 
 .gmail {
   display: inline-block;
   background-image: url("../../assets/gm.png");
-  background-repeat: no-repeat;
   background-size: cover;
-  width: 55px;
-  height: 40px;
-  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  height: 46px;
   text-align: center;
-  line-height: 180px;
 }
 
 .gimage {
+  background-color: #b0a295;
   border: none;
-}
-
-.fit {
-  color: rgba(183, 193, 225, 0);
 }
 
 .limage {
@@ -55,10 +52,7 @@
   background-size: cover;
   width: 60px;
   height: 60px;
-  color: #ffffff00;
-  text-decoration: none;
   text-align: center;
-  line-height: 200px;
   margin-left: 12px;
 }
 
@@ -70,10 +64,7 @@
   background-size: cover;
   width: 70px;
   height: 70px;
-  color: #ffffff00;
-  text-decoration: none;
   text-align: center;
-  line-height: 200px;
 }
 
 .upArrow {
@@ -145,6 +136,7 @@ active {
     width: 2.55em;
     height: 2.55em;
   }
+
   .gitimage {
     padding: 3px 1px;
     width: 3.2em;
