@@ -95,10 +95,10 @@
   color: rgb(13, 31, 59);
   overflow: hidden;
   font-size: 3.5em;
-  font-weight: bolder;
+  font-weight: 800;
   white-space: nowrap;
   margin: 0 auto;
-  /* text-shadow: 4px 3px 1.5px rgb(105, 146, 213); */
+  text-shadow: 4px 5px 1.5px rgba(13, 31, 59, 0.391);
   letter-spacing: 0.05em;
   animation: typing 3s steps(40, end), color-code 3s steps(30, end);
 }

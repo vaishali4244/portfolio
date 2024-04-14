@@ -9,6 +9,22 @@ export const data = [
     },
 
     {
+        source: require("../assets/budgetcart.png"),
+        alt: "E-commerce app preview",
+        title: "E-commerce App",
+        span: "React.Js, JavaScript, CSS3, HTML5, BootStrap, Lazy-loading, Axios, Yarn",
+        live: "https://budgetcart.netlify.app/",
+        code: "https://github.com/vaishali4244/e-commerce-website",
+    },
+    {
+        source: require("../assets/todo.png"),
+        alt: "Kanban board",
+        title: "Kanban Board Task Manager",
+        span: "ReactJs, Redux toolkit, JavaScript, CSS3, HTML5, Redux-persist, User Authentication, Yarn",
+        live: "https://kanban-board-todo-list.vercel.app/",
+        code: "https://github.com/vaishali4244/kanban-board",
+    },
+    {
         source: require("../assets/weather.png"),
         alt: "weather app preview",
         title: "Get Weather App",
@@ -17,14 +33,6 @@ export const data = [
         code: "https://github.com/vaishali4244/weather-app",
     },
 
-    {
-        source: require("../assets/budgetcart.png"),
-        alt: "E-commerce app preview",
-        title: "E-commerce App",
-        span: "React.Js, JavaScript, CSS3, HTML5, BootStrap, Lazy Loading, Axios, Yarn",
-        live: "https://budgetcart.netlify.app/",
-        code: "https://github.com/vaishali4244/e-commerce-website",
-    },
 
     {
         source: require("../assets/face-detector.png"),

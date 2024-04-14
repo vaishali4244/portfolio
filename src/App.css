@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   padding: 0;
@@ -9,7 +10,8 @@
 
 body {
   background: #b0a295;
-  font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 800px) and (min-width: 0px) {

@@ -12,7 +12,7 @@ const About = () => {
                 <img className="profile" src={require("../../assets/profile.png")} alt=" vaishali" />
                 <div className="para">
                     <p>
-                        I am a ReactJS Developer with an M.Tech degree in Electronics and Communication Engineering from NIT Kurukshetra, India. Creating and maintaining excellent websites and applications is what I dream of. I've created various projects related to Front End applications using React.Js, JavaScript, Redux toolkit and middlewares, Material UI, CSS3, HTML3, BootStrap, Tailwind CSS and much more! I am passionate about improving my skills and learning new technologies.
+                        I am a ReactJS Developer with an M.Tech degree in Electronics and Communication Engineering from NIT Kurukshetra, India. I have 6-month of internship experience in React Frontend Development. Creating and maintaining excellent websites and applications is what I dream of. I've created various projects related to Front End applications using React.Js, JavaScript, Redux toolkit and middlewares, Material UI, Tailwind CSS, BootStrap, CSS3, Sass, HTML3, and much more! I am passionate about improving my skills and learning new technologies.
                     </p>
                 </div>
             </div>

@@ -34,16 +34,20 @@
 .card {
   height: 67vh;
   background: #7395ae;
+  /* background: #b0a295; */
   border: 1px solid rgb(44, 73, 121);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-radius: 8px;
 }
 
 .pro-card {
-  background: #7395ae;
+  /* background: #7395ae; */
+  background: #918376;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 0.5rem;
-  border: 1px solid rgb(44, 73, 121);
+  /* border: 1px solid rgb(44, 73, 121); */
+  /* border: 1px solid #766a5e; */
+  box-shadow: 0 0 0 2px #695f56;
   border-radius: 8px;
 }
 
