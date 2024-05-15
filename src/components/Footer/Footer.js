@@ -1,35 +1,53 @@
 import React from "react";
-import GmailLink from './GmailLink';
-import './Footer.css';
+import "./Footer.css";
+import Contact from "../Contact/Contact";
 
-const Footer = () => {
+const Footer = ({ id }) => {
   return (
+    <div className="contact-container">
+      <section id={id} className="contact-box">
+        <h3 className="about-heading">Get in Touch</h3>
+        <div className="contact-content">
+          <div className="contact-p">
+            <p>
+              I am looking for ReactJs Developer roles that have interesting
+              problems to solve, offer professional growth and learning.
+            </p>
+          </div>
 
-    <footer className="footer ">
-      <div className="container5">
-        <a rel="noreferrer" href="#top" className="upArrow">
-        </a>
-        <div className="social-links">
-          <button className="gimage link" rel="noreferrer" target="_blank"><GmailLink />
-          </button>
-          <a className="limage link" rel="noreferrer" href="https://www.linkedin.com/in/vaishali-singh-a31b9231/" target="_blank">
-          </a>
-          <a className="gitimage link" rel="noreferrer" href="https://github.com/vaishali4244" target="_blank">
-          </a>
+          <div className="contact-data">
+            <div className="contact-info">
+              <img src={require("../../assets/logo/address.png")} alt="" />
+              <p>Noida, India</p>
+            </div>
+            <div className="contact-info">
+              <img src={require("../../assets/logo/email.png")} alt="" />
+              <p>vaishali120895@gmail.com</p>
+            </div>
+
+            <Contact />
+          </div>
         </div>
-
-      </div>
-      <div className="copy">
-        <p className="text">
-          ©2023 - Developed by
-          <a rel="noreferrer" href="https://www.linkedin.com/in/vaishali-singh-a31b9231/" target="_blank"
-          > Vaishali</a>
+      </section>
+      <a rel="noreferrer" href="#top" className="upArrow"></a>
+      <footer className="footer-container">
+        <p>Copyright &copy; 2024. All rights reserved.</p>
+        <p>
+          {" "}
+          Developed by{" "}
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/vaishali-react12/"
+            target="_blank"
+          >
+            {" "}
+            Vaishali
+          </a>
+          .
         </p>
-      </div>
-
-    </footer>
-
-  )
-}
+      </footer>
+    </div>
+  );
+};
 
 export default Footer;

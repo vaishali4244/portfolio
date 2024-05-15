@@ -1,0 +1,191 @@
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--blue);
+  padding-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-content {
+  width: 48vw;
+  margin: 5vh 1vw;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+}
+
+.hero-content h1 #name {
+  font-size: 3.5rem;
+  color: rgb(0, 187, 255);
+}
+
+.hero-content h2 {
+  margin: 2rem 0;
+}
+
+.hero-content p {
+  font-size: 1.4rem;
+}
+
+.hero-img {
+  height: 65vh;
+  width: 25vw;
+  border-radius: 12px;
+  box-shadow: 0 0 0 2px #585a82;
+}
+
+.hero-img:hover {
+  box-shadow: 0 0 0 2px #6d6f9c;
+}
+.skill-icon {
+  height: 70vh;
+  box-sizing: border-box;
+  padding-top: 20vh 1vw;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill-box {
+  position: relative;
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  animation: start 12s linear infinite;
+  transition: transform 4s;
+  overflow: visible;
+}
+
+.skill-box:hover {
+  transform: rotate(900deg);
+  animation-iteration-count: infinite;
+}
+
+.end {
+  animation: end 12s linear infinite;
+  overflow: hidden;
+}
+
+.skills {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 20%;
+}
+
+@keyframes start {
+  0% {
+    background: rgb(248, 87, 75);
+    left: 0px;
+    top: 0px;
+  }
+
+  12.5% {
+    background: rgb(240, 232, 93);
+    left: 1.5vw;
+    top: 0px;
+  }
+
+  25% {
+    background: rgb(87, 76, 243);
+    left: 3vw;
+    top: 0px;
+  }
+
+  37.5% {
+    background: rgb(231, 108, 46);
+    left: 4.5vw;
+    top: 0px;
+  }
+
+  50% {
+    background: rgb(78, 51, 142);
+    left: 6vw;
+    top: 0px;
+  }
+
+  62.5% {
+    background: rgb(215, 129, 228);
+    left: 4.5vw;
+    top: 0px;
+  }
+
+  75% {
+    background: rgb(238, 233, 144);
+    left: 3vw;
+    top: 0px;
+  }
+
+  87.5% {
+    background: rgb(235, 144, 87);
+    left: 1.5vw;
+    top: 0px;
+  }
+
+  100% {
+    background: rgb(149, 117, 236);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes end {
+  0% {
+    background: rgb(241, 115, 77);
+    left: 5em;
+    top: 0px;
+  }
+
+  25% {
+    background: rgb(111, 103, 199);
+    left: 2.5em;
+    top: 0px;
+  }
+
+  50% {
+    background: rgb(245, 206, 78);
+    left: 0px;
+    top: 0px;
+  }
+
+  75% {
+    background: rgb(56, 84, 186);
+    left: 2.5em;
+    top: 0px;
+  }
+
+  100% {
+    background: rgb(242, 127, 66);
+    left: 5em;
+    top: 0px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero-container {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .hero-content {
+    width: 80vw;
+  }
+
+  .hero-img {
+    height: 50vh;
+    width: 55vw;
+  }
+
+  .skill-icon,
+  .skill-box,
+  .skills {
+    display: none;
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './Contact.css';
 
 
 const GmailLink = () => {
@@ -14,7 +14,7 @@ const GmailLink = () => {
 
 
   return (
-    <img src={require(('../../assets/gm.png'))} className='gmail' onClick={openGmailCompose} alt="/"></img>
+    <img src={require(('../../assets/logo/gm.png'))} className='gmail' onClick={openGmailCompose} alt="/"></img>
   );
 }
 

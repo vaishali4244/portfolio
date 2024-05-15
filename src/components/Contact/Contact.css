@@ -1,45 +1,90 @@
-.container4 {
-  max-height: 35vh;
-  width: 95%;
-  padding: 1.5rem 0.3rem;
+.social-links {
+  width: 18vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  margin: 1em 0.5em;
 }
 
-.container4 h2 {
-  color: rgb(13, 31, 59);
-  width: 80vw;
-  margin-bottom: 1.5rem;
-  margin-top: 1em;
-  text-align: center;
-  text-shadow: 3px 3px #f45c7d;
-}
-
-.container4 .para {
-  width: 70vw;
-  font-size: 1.8rem;
-  text-align: center;
-  color: #04121e;
+.gmail {
+  display: inline-block;
+  background-image: url("../../assets/logo/gm.png");
+  background-size: cover;
+  padding: 0;
   margin: 0;
-  font-weight: bold;
+  width: 34px;
+  height: 25px;
+  text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
-  .container4 {
-    height: auto;
-  }
-
-  .container4 .para {
-    width: 90vw;
-    font-size: 1.3rem;
-  }
+.gimage {
+  background-color: var(--blue);
+  border: none;
 }
 
-@media only screen and (max-width: 300px) {
-  .container4 .para {
-    font-size: 1rem;
+.limage {
+  display: inline-block;
+  background-image: url("../../assets/logo/lin.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  margin-left: 12px;
+}
+
+.gitimage {
+  padding: 3px 1px;
+  display: inline-block;
+  background-image: url("../../assets/logo/giti.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+}
+
+.upArrow {
+  display: inline-block;
+  background-image: url("../../assets/logo/arrow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 34px;
+  height: 34px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 200px;
+  margin: 5vh 0;
+}
+
+.upArrow:hover {
+  transform: translateY(3px);
+}
+
+.text {
+  font-size: 1.05rem;
+  padding-top: 2vh;
+}
+
+footer a {
+  color: #f45c7d00;
+}
+
+footer p a {
+  text-decoration: none;
+  color: white;
+}
+
+p a:hover,
+active {
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.657);
+}
+
+@media only screen and (max-width: 700px) {
+  .link-container {
+    width: 60vw;
+  }
+  .social-links {
+    width: 60vw;
   }
 }

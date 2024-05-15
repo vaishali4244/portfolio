@@ -1,0 +1,83 @@
+.timeline-container {
+  width: 100%;
+  height: auto;
+  background: var(--blue);
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-btn {
+  height: 15vh;
+  padding-top: 10vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.select-btn button {
+  height: 2rem;
+  width: 8rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: var(--darkBlue);
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  background: rgb(160, 159, 159);
+  padding: 0.2rem 0.8rem;
+}
+
+.select-btn .active-timeline {
+  width: 10rem;
+  height: 3rem;
+  background: rgb(0, 187, 255);
+  cursor: pointer;
+  border: none;
+}
+
+.timeline-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-content p {
+  color: var(--darkBlue);
+  font-weight: 100;
+}
+
+.experience-content {
+  width: 90vw;
+}
+
+.education-content {
+  width: 90vw;
+}
+
+.work-icon {
+  height: 2.8rem;
+  width: 2.8rem;
+}
+
+.job-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.location {
+  margin-left: 10vw;
+}
+
+@media screen and (max-width: 500px) {
+  .select-btn {
+    flex-direction: column;
+  }
+
+  .job-title {
+    font-size: 1.2rem;
+  }
+}

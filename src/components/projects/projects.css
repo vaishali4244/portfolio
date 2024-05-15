@@ -1,0 +1,192 @@
+.project-container {
+  width: 100%;
+  height: auto;
+  background: var(--blue);
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-container input {
+  height: 2.4rem;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5vw;
+  margin: 5vh 0;
+  border-radius: 6px;
+  border: 1px solid var(--darkBlue);
+  color: var(--darkBlue);
+  font-size: 1rem;
+}
+
+.project-container input:hover {
+  box-shadow: 0 0 0 2px rgb(0, 187, 255);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  width: 28vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  margin: 4vh 2vw;
+  text-align: center;
+  padding: 2vh 2vw;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 2px #3d3f64;
+}
+
+.project-card:hover {
+  background: #424368;
+  box-shadow: 0 0 0 2px #3f4164;
+  cursor: pointer;
+}
+
+.project-card .title,
+.modal-card .title {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.project-card p,
+.modal-card p {
+  margin: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+  color: rgba(250, 128, 91, 0.937);
+  font-weight: 200;
+}
+
+.project-img {
+  border-radius: 20%;
+  height: 33vh;
+  width: 25vw;
+}
+
+.customOverlay {
+  background: #3f4164e2;
+}
+
+.customModal {
+  background: var(--darkBlue);
+  max-width: 56vw;
+  width: 100%;
+}
+
+.modal-card {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+/* .modal-card p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: orange;
+} */
+
+.project-btn {
+  border: 1px solid var(--blue);
+  font-size: 1.15em;
+  font-weight: 600;
+  color: rgba(250, 128, 91, 0.937);
+  
+  padding: 5px 18px;
+  border-radius: 10px;
+  margin: 4px 1rem;
+  text-decoration: none;
+  background: var(--blue);
+  box-shadow: 0 0 5px rgb(0, 187, 255);
+}
+
+.project-btn:hover{
+  text-shadow: 0 0 4px rgba(250, 128, 91, 0.937);
+  box-shadow: 0 0 10px rgb(0, 187, 255);
+}
+
+.skills-name {
+  font-weight: 500;
+  color: rgb(0, 187, 255);
+}
+
+.modal-img {
+  height: 38vh;
+  width: 38vw;
+  border-radius: 15px;
+}
+
+
+@keyframes customEnterOverlayAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes customLeaveOverlayAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes customEnterModalAnimation {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes customLeaveModalAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .project-card {
+    width: 43vw;
+    margin: 4vh 3vw;
+  }
+
+  .project-container input{
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .project-card {
+    width: 85vw;
+    margin: 4vh 3vw;
+  }
+
+  .project-img {
+    width: 65vw;
+  }
+
+  
+}

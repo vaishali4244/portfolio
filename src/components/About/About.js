@@ -1,24 +1,93 @@
 import React from "react";
 import "./About.css";
+import { motion } from "framer-motion";
 const resume = require("../../assets/vaishaliRE.pdf");
 
-const About = () => {
-    return (
-        <div className="container1">
-            <div className="heading1">
-                <h2>ABOUT ME</h2>
-            </div>
-            <div className="about">
-                <img className="profile" src={require("../../assets/profile.png")} alt=" vaishali" />
-                <div className="para">
-                    <p>
-                        I am a ReactJS Developer with an M.Tech degree in Electronics and Communication Engineering from NIT Kurukshetra, India. I have 6-month of internship experience in React Frontend Development. Creating and maintaining excellent websites and applications is what I dream of. I've created various projects related to Front End applications using React.Js, JavaScript, Redux toolkit and middlewares, Material UI, Tailwind CSS, BootStrap, CSS3, Sass, HTML3, and much more! I am passionate about improving my skills and learning new technologies.
-                    </p>
-                </div>
-            </div>
-            <a className="button1" href={resume} target="_blank" rel="noreferrer">View Resume</a>
+const containerVariant = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      delay: 1.5,
+      duration: 1.5,
+    },
+  },
+  exit: {
+    x: "-100vw",
+    transition: {
+      ease: "easeInOut",
+    },
+  },
+};
+
+const About = ({ id }) => {
+  return (
+    <motion.section
+      id={id}
+      className="about-container"
+      variants={containerVariant}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
+      <h3 className="about-heading">ABOUT ME</h3>
+      <div className="about-content">
+        <motion.img
+         animate={{
+          borderRadius: ["10%", "50%", "10%"],
+          rotate: [0, 10, 0],
+        }}
+        transition={{
+          duration: 5,
+          repeat: Infinity,
+          repeatType: "reverse",
+        }}
+         
+          className="about-img "
+          src={require('../../assets/images/profile2.jpeg')}
+          alt="profile "
+        />
+
+        <div className="about-details">
+          <motion.p
+            initial={{ scale: 0.1 }}
+            animate={{
+              scale: [1],
+            }}
+            transition={{
+              duration: 5,
+              // repeat: Infinity,
+            }}
+          >
+            I am a ReactJS Developer with an M.Tech degree in Electronics and Communication Engineering from NIT Kurukshetra, India. I have 6-month of internship experience in React Frontend Development and am currently learning TypeScript to expand my expertise.. I've created various projects related to Front End applications using React.Js, JavaScript, Redux toolkit and middlewares, Material UI, Tailwind CSS, BootStrap, CSS3, Sass, HTML5, and much more! I pride myself on being a quick learner and attentive listener, which allows me to collaborate effectively with clients to create efficient and scalable solutions. My focus is on developing user-friendly applications that solve real-world problems.
+          </motion.p>
+
+          <div className="more-details">
+            <p>
+              Name : <span className="about-me">Vaishali</span>
+            </p>
+            <p>
+              Email :{" "}
+              <span className="about-me">vaishali120895@gmail.com</span>
+            </p>
+            <motion.p
+              initial={{ x: 100 }}
+              animate={{ x: 0 }}
+              transition={{ duration: 2 }}
+            >
+              Address : <span className="about-me">Noida, India</span>
+            </motion.p>
+            {/* <p>
+              Quote : <span className="about-me">Live the Life as you want</span>{" "}
+            </p> */}
+          </div>
+        <a className="container-btn" href={resume} target="_blank" rel="noreferrer">View Resume</a>
         </div>
-    )
-}
+      </div>
+    </motion.section>
+  );
+};
 
 export default About;
