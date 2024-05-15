@@ -6,12 +6,12 @@ const github = require("../../assets/logo/github.png");
 const react = require("../../assets/logo/react.png");
 const js = require("../../assets/logo/js.png");
 const redux = require("../../assets/logo/redux.png");
-const mui = require("../../assets/logo/mui.png");
+// const mui = require("../../assets/logo/mui.png");
 const css = require("../../assets/logo/css.png");
 const html = require("../../assets/logo/html.png");
-const bt = require("../../assets/logo/bootstrap.png");
-const postman = require("../../assets/logo/postman.png");
-const node = require("../../assets/logo/node.png");
+// const bt = require("../../assets/logo/bootstrap.png");
+// const postman = require("../../assets/logo/postman.png");
+// const node = require("../../assets/logo/node.png");
 
 
 
