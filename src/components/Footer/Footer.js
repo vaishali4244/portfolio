@@ -29,7 +29,7 @@ const Footer = ({ id }) => {
           </div>
         </div>
       </section>
-      <a rel="noreferrer" href="#top" className="upArrow"></a>
+      <a rel="noreferrer" href="#top" className="upArrow"> </a>
       <footer className="footer-container">
         <p>Copyright &copy; 2024. All rights reserved.</p>
         <p>
@@ -39,10 +39,7 @@ const Footer = ({ id }) => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/vaishali-react12/"
             target="_blank"
-          >
-            {" "}
-            Vaishali
-          </a>
+          > Vaishali</a>
           .
         </p>
       </footer>

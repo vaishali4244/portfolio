@@ -19,6 +19,7 @@ const Projects = ({ id,}) => {
            if(item?.skills?.toString()?.toLowerCase()?.includes(search)){
               return item
             }
+            return item
             });
           setProjectData(filteredData);
         }
