@@ -1,8 +1,6 @@
 import React from "react";
 import "./skills.css";
-// import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 import { skills } from "../data";
-import "react-circular-progressbar/dist/styles.css";
 import { motion } from "framer-motion";
 
 const Skills = ({id }) => {
