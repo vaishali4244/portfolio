@@ -276,7 +276,7 @@ export const skills = [
     enabled: true,
   },
   {
-    enabled: false,
+    enabled: true,
     name: "Next.js",
     sequence: 6,
     percentage: 90,

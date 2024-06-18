@@ -8,7 +8,8 @@ const js = require("../../assets/logo/js.png");
 const redux = require("../../assets/logo/redux.png");
 // const mui = require("../../assets/logo/mui.png");
 const css = require("../../assets/logo/css.png");
-const html = require("../../assets/logo/html.png");
+// const html = require("../../assets/logo/html.png");
+const next = require("../../assets/logo/nextjs.png");
 // const bt = require("../../assets/logo/bootstrap.png");
 // const postman = require("../../assets/logo/postman.png");
 // const node = require("../../assets/logo/node.png");
@@ -36,12 +37,12 @@ const Hero = ({ id }) => {
 
         <motion.h2>I am a{" "}
         <Typewriter
-              words={["ReactJS Developer .", "Frontend Developer .", "Web Developer .","JavaScript Developer ." ,"MERN Stack Developer ."]}
+              words={["ReactJS Developer .", "NextJs Developer .","Fron End Developer .", "Web Developer .","JavaScript Developer ." ,"MERN Stack Developer ."]}
               loop={false}
               cursor
-              typeSpeed={50}
+              typeSpeed={100}
               deleteSpeed={25}
-              delaySpeed={350}
+              delaySpeed={450}
             />
         </motion.h2>
         <p>I develop user interfaces and web applications.</p>
@@ -66,7 +67,7 @@ const Hero = ({ id }) => {
             <img className="skills" src={react} alt="" />
           </div>
           <div className="skill-box  end ">
-            <img className="skills " src={html} alt="" />
+            <img className="skills " src={next} alt="" />
           </div>
           <div className="skill-box ">
             <img className="skills skills-small" src={js} alt="" />

@@ -61,7 +61,7 @@ const About = ({ id }) => {
               // repeat: Infinity,
             }}
           >
-            I am a ReactJS Developer with an M.Tech degree in Electronics and Communication Engineering from NIT Kurukshetra, India. I have 6-month of internship experience in React Frontend Development and am currently learning TypeScript to expand my expertise.. I've created various projects related to Front End applications using React.Js, JavaScript, Redux toolkit and middlewares, Material UI, Tailwind CSS, BootStrap, CSS3, Sass, HTML5, and much more! I pride myself on being a quick learner and attentive listener, which allows me to collaborate effectively with clients to create efficient and scalable solutions. My focus is on developing user-friendly applications that solve real-world problems.
+            I am a React.JS Developer with an M.Tech degree in Electronics and Communication Engineering from NIT Kurukshetra, India. I have 7 months of internship experience in Web Development and am currently learning Next.JS to expand my expertise. I've created various projects related to Front End applications using React.Js, JavaScript, TypeScript, Redux toolkit and middlewares, Material UI, Tailwind CSS, BootStrap, CSS3, Sass, HTML5, and much more! I pride myself on being a quick learner and attentive listener, which allows me to collaborate effectively with clients to create efficient and scalable solutions. My focus is on developing user-friendly applications that solve real-world problems.
           </motion.p>
 
           <div className="more-details">

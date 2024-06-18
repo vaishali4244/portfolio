@@ -61,6 +61,39 @@ const Timeline = ({ workIcon, eduIcon }) => {
                 contentArrowStyle={{
                   borderRight: "7px solid  rgb(33, 150, 243)",
                 }}
+                date={`May, 2024 - Present`}
+                textClassName={"geee"}
+                iconStyle={{
+                  background: "rgb(33, 150, 243)",
+                  color: "#fff",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                icon={workIcon}
+              >
+                <h3 className="vertical-timeline-element-title job-title">
+                  Web Developer Intern
+                </h3>
+                <p className="vertical-timeline-element-subtitle">
+                  Coding Samurai
+                  <span className="location">{}</span>
+                </p>
+                <p>
+                  Collaborated cross-functionally to implement responsive
+                  MERN Stack applications for seamless user experiences.
+                </p>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                // key={data?._id}
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(33, 150, 243)",
+                  color: "#fff",
+                }}
+                contentArrowStyle={{
+                  borderRight: "7px solid  rgb(33, 150, 243)",
+                }}
                 date={`Oct, 2023 - March, 2024`}
                 textClassName={"geee"}
                 iconStyle={{
@@ -73,15 +106,14 @@ const Timeline = ({ workIcon, eduIcon }) => {
                 icon={workIcon}
               >
                 <h3 className="vertical-timeline-element-title job-title">
-                  Web Developer
+                  Front End Developer Intern
                 </h3>
                 <p className="vertical-timeline-element-subtitle">
                   Indinterns
                   <span className="location">{}</span>
                 </p>
                 <p>
-                  Collaborated cross-functionally to implement responsive
-                  front-end applications for seamless user experiences.
+                Contributed to optimizing and code maintainability utilizing ReactJS, JavaScript, CSS3, and HTML5.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
