@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { motion } from "framer-motion";
-const resume = require("../../assets/vaishaliRE.pdf");
+const resume = require("../../assets/vaishaliRresume.pdf");
 
 const containerVariant = {
   hidden: {
@@ -35,18 +35,17 @@ const About = ({ id }) => {
       <h3 className="about-heading">ABOUT ME</h3>
       <div className="about-content">
         <motion.img
-         animate={{
-          borderRadius: ["10%", "50%", "10%"],
-          rotate: [0, 10, 0],
-        }}
-        transition={{
-          duration: 5,
-          repeat: Infinity,
-          repeatType: "reverse",
-        }}
-         
+          animate={{
+            borderRadius: ["10%", "50%", "10%"],
+            rotate: [0, 10, 0],
+          }}
+          transition={{
+            duration: 5,
+            repeat: Infinity,
+            repeatType: "reverse",
+          }}
           className="about-img "
-          src={require('../../assets/images/profile2.jpeg')}
+          src={require("../../assets/images/profile2.jpeg")}
           alt="profile "
         />
 
@@ -61,7 +60,44 @@ const About = ({ id }) => {
               // repeat: Infinity,
             }}
           >
-            I am a React.JS Developer with an M.Tech degree in Electronics and Communication Engineering from NIT Kurukshetra, India. I have 7 months of internship experience in Web Development and am currently learning Next.JS to expand my expertise. I've created various projects related to Front End applications using React.Js, JavaScript, TypeScript, Redux toolkit and middlewares, Material UI, Tailwind CSS, BootStrap, CSS3, Sass, HTML5, and much more! I pride myself on being a quick learner and attentive listener, which allows me to collaborate effectively with clients to create efficient and scalable solutions. My focus is on developing user-friendly applications that solve real-world problems.
+            I’m a React.js Developer with 3 years of hands-on experience
+            building scalable and responsive web applications using modern
+            technologies like React.js, Next.js, Redux Toolkit, Zustand,
+            TypeScript, and Tailwind CSS. I hold an M.Tech in Electronics and
+            Communication Engineering from NIT Kurukshetra, India.
+          </motion.p>
+          <motion.p
+            initial={{ scale: 0.1 }}
+            animate={{
+              scale: [1],
+            }}
+            transition={{
+              duration: 5,
+              // repeat: Infinity,
+            }}
+          >
+            {" "}
+            I’ve worked on diverse projects—from travel planning platforms to
+            admin dashboards and e-commerce tools—focusing on performance,
+            intuitive UI, and seamless user experiences. I’m experienced in
+            integrating real-time features, payment gateways (Razorpay), JWT
+            authentication, and state management solutions.{" "}
+          </motion.p>
+          <motion.p
+            initial={{ scale: 0.1 }}
+            animate={{
+              scale: [1],
+            }}
+            transition={{
+              duration: 5,
+              // repeat: Infinity,
+            }}
+          >
+            {" "}
+            Currently expanding my expertise in full-stack development and
+            passionate about solving real-world problems with clean, efficient,
+            and maintainable code. I thrive in agile teams, collaborate
+            effectively, and stay up to date with emerging frontend trends.
           </motion.p>
 
           <div className="more-details">
@@ -69,8 +105,7 @@ const About = ({ id }) => {
               Name : <span className="about-me">Vaishali</span>
             </p>
             <p>
-              Email :{" "}
-              <span className="about-me">vaishali120895@gmail.com</span>
+              Email : <span className="about-me">vaishali120895@gmail.com</span>
             </p>
             <motion.p
               initial={{ x: 100 }}
@@ -83,7 +118,14 @@ const About = ({ id }) => {
               Quote : <span className="about-me">Live the Life as you want</span>{" "}
             </p> */}
           </div>
-        <a className="container-btn" href={resume} target="_blank" rel="noreferrer">View Resume</a>
+          <a
+            className="container-btn"
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Resume
+          </a>
         </div>
       </div>
     </motion.section>

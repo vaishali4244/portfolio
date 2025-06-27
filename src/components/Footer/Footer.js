@@ -10,8 +10,8 @@ const Footer = ({ id }) => {
         <div className="contact-content">
           <div className="contact-p">
             <p>
-              I am looking for ReactJs / NextJs Developer roles that have interesting
-              problems to solve, offer professional growth and learning.
+           Seeking roles in modern web development where I can apply my 3 years of ReactJS/Next.js experience to build scalable, performant applications and grow as a software engineer.
+
             </p>
           </div>
 

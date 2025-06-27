@@ -61,7 +61,7 @@ const Timeline = ({ workIcon, eduIcon }) => {
                 contentArrowStyle={{
                   borderRight: "7px solid  rgb(33, 150, 243)",
                 }}
-                date={`July, 2024 - Present`}
+                date={`July, 2022 - Present`}
                 textClassName={"geee"}
                 iconStyle={{
                   background: "rgb(33, 150, 243)",
@@ -73,16 +73,24 @@ const Timeline = ({ workIcon, eduIcon }) => {
                 icon={workIcon}
               >
                 <h3 className="vertical-timeline-element-title job-title">
-                 Junior Web Developer
+                  Junior Web Developer
                 </h3>
                 <p className="vertical-timeline-element-subtitle ">
-              Eloop Dev Solutions
-                  <span className="location">{""}</span>
+                  Eloop Dev Solutions LLP
+                  <span className="location">{"Delhi-NCR"}</span>
                 </p>
-                <li>Assisted in development of web applications and websites.</li>
-                <li>Writing and maintaining clean, efficient, and well-documented code.</li>
+                <li>
+                  Developed and maintained responsive and user-friendly web
+                  applications using modern frontend technologies such as
+                  NextJS, ReactJS, CSS3, AntDesign, Zustand, and Tailwind CSS.
+                </li>
+                <li>
+                  Actively participating in agile development methodologies,
+                  attending daily stand-ups, and collaborating over Jira, Slack,
+                  and Trello.
+                </li>
               </VerticalTimelineElement>
-              <VerticalTimelineElement
+              {/* <VerticalTimelineElement
                 // key={data?._id}
                 className="vertical-timeline-element--work"
                 contentStyle={{
@@ -111,11 +119,11 @@ const Timeline = ({ workIcon, eduIcon }) => {
                   <span className="location">{}</span>
                 </p>
                 <li>
-                  Collaborated cross-functionally to implement responsive
-                  MERN Stack applications for seamless user experiences.
+                  Collaborated cross-functionally to implement responsive MERN
+                  Stack applications for seamless user experiences.
                 </li>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
+              </VerticalTimelineElement> */}
+              {/* <VerticalTimelineElement
                 // key={data?._id}
                 className="vertical-timeline-element--work"
                 contentStyle={{
@@ -144,9 +152,10 @@ const Timeline = ({ workIcon, eduIcon }) => {
                   <span className="location">{}</span>
                 </p>
                 <li>
-                Contributed to optimizing and code maintainability utilizing ReactJS, JavaScript, CSS3, and HTML5.
+                  Contributed to optimizing and code maintainability utilizing
+                  ReactJS, JavaScript, CSS3, and HTML5.
                 </li>
-              </VerticalTimelineElement>
+              </VerticalTimelineElement> */}
               <VerticalTimelineElement
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               />
