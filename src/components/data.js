@@ -1,5 +1,40 @@
 export const data = [
   {
+    source: require("../assets/images/diy.png"),
+    alt: "travel-itinerary",
+    title: "Itinerary Creators – DIYTINERARY, Also Admin Panel",
+    skills: [
+      "Next.js",
+      "React.js",
+      "JavaScript",
+      "Zustand",
+      " Bootstrap 5",
+      "SCSS",
+      "Razorpay Integration",
+      "SEO",
+      "JWT Authentication",
+      "Ant Design",
+    ],
+    live: "https://www.diytinerary.com/",
+    // code: "https://github.com/vaishali4244/hotel-booking",
+  },
+  {
+    source: require("../assets/images/kyakre.png"),
+    alt: "career counselling",
+    title: "Online career counselling platform – KYAKRE",
+    skills: [
+      "React.js",
+      "JavaScript",
+      "Tailwind CSS",
+      "Ant Design",
+      "SEO",
+      "Framer Motion",
+      "Carousel",
+    ],
+    live: "https://kyakre.com/",
+    // code: "https://github.com/vaishali4244/hotel-booking",
+  },
+  {
     source: require("../assets/images/bookhotel.png"),
     alt: "bookHotels",
     title: "Hotel Booking App",
@@ -215,7 +250,6 @@ export const data = [
 ];
 
 export const skills = [
-
   {
     enabled: true,
     name: "React",
@@ -230,55 +264,8 @@ export const skills = [
   },
   {
     enabled: true,
-    name: "Javascript",
-    sequence: 2,
-    percentage: 95,
-    image: {
-      public_id: "1706288679775-y4qwn3",
-      url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288679775-y4qwn3",
-      _id: "65b3e628b48589dfcae18750",
-    },
-    _id: "65b3df24b48589dfcae18114",
-  },
-  {
-    enabled: true,
-    name: "CSS",
-    sequence: 3,
-    percentage: 97,
-    image: {
-      public_id: "1706286273084-romle",
-      url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286273084-romle",
-    },
-    _id: "65b3dcc1b48589dfcae17e4d",
-  },
- 
-  {
-    enabled: true,
-    name: "Redux",
-    sequence: 4,
-    percentage: 95,
-    image: {
-      public_id: "1706286913147-nwiky8",
-      url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286913147-nwiky8",
-      _id: "65b3df41b48589dfcae1814e",
-    },
-    _id: "65b3df41b48589dfcae1814d",
-  },
-  {
-    name: "HTML",
-    sequence: 5,
-    percentage: 98,
-    image: {
-      public_id: "1706286058630-v3ax0a",
-      url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286058630-v3ax0a",
-    },
-    _id: "65b3dbeba5c8d2db7b6164bc",
-    enabled: true,
-  },
-  {
-    enabled: true,
     name: "Next.js",
-    sequence: 6,
+    sequence: 2,
     percentage: 90,
     image: {
       public_id: "1706286682511-rgp96r",
@@ -290,7 +277,7 @@ export const skills = [
   {
     enabled: true,
     name: "TypeScript",
-    sequence: 7,
+    sequence: 4,
     percentage: 90,
     image: {
       public_id: "1706287104739-pm8en",
@@ -299,6 +286,54 @@ export const skills = [
     },
     _id: "65b3e001b48589dfcae18245",
   },
+  {
+    enabled: true,
+    name: "Javascript",
+    sequence: 3,
+    percentage: 95,
+    image: {
+      public_id: "1706288679775-y4qwn3",
+      url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288679775-y4qwn3",
+      _id: "65b3e628b48589dfcae18750",
+    },
+    _id: "65b3df24b48589dfcae18114",
+  },
+  {
+    enabled: true,
+    name: "CSS",
+    sequence: 5,
+    percentage: 97,
+    image: {
+      public_id: "1706286273084-romle",
+      url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286273084-romle",
+    },
+    _id: "65b3dcc1b48589dfcae17e4d",
+  },
+
+  {
+    enabled: true,
+    name: "Redux",
+    sequence: 6,
+    percentage: 95,
+    image: {
+      public_id: "1706286913147-nwiky8",
+      url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286913147-nwiky8",
+      _id: "65b3df41b48589dfcae1814e",
+    },
+    _id: "65b3df41b48589dfcae1814d",
+  },
+  {
+    name: "HTML",
+    sequence: 7,
+    percentage: 98,
+    image: {
+      public_id: "1706286058630-v3ax0a",
+      url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286058630-v3ax0a",
+    },
+    _id: "65b3dbeba5c8d2db7b6164bc",
+    enabled: true,
+  },
+  
   {
     enabled: true,
     name: "BootStrap",
@@ -311,8 +346,7 @@ export const skills = [
     },
     _id: "65b3e023b48589dfcae18288",
   },
- 
- 
+
   {
     enabled: true,
     name: "Github",
@@ -348,7 +382,7 @@ export const skills = [
       _id: "65b3de19b48589dfcae17f95",
     },
     _id: "65b3de19b48589dfcae17f94",
-  }, 
+  },
   {
     enabled: true,
     name: "Node.js",
@@ -372,8 +406,8 @@ export const skills = [
       _id: "65b3defbb48589dfcae180de",
     },
     _id: "65b3defbb48589dfcae180dd",
-  }, 
- 
+  },
+
   {
     enabled: true,
     name: "Material UI",
@@ -458,5 +492,4 @@ export const skills = [
     },
     _id: "65b3de89b48589dfcae18015",
   },
-  
 ];
