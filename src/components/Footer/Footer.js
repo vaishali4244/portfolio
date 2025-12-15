@@ -10,8 +10,9 @@ const Footer = ({ id }) => {
         <div className="contact-content">
           <div className="contact-p">
             <p>
-           Seeking roles in modern web development where I can apply my 3 years of ReactJS/Next.js experience to build scalable, performant applications and grow as a software engineer.
-
+              Seeking roles in modern web development where I can apply my 3+
+              years of ReactJS and Next.js experience to build scalable,
+              performant applications and grow as a software engineer.
             </p>
           </div>
 
@@ -29,9 +30,11 @@ const Footer = ({ id }) => {
           </div>
         </div>
       </section>
-      <a rel="noreferrer" href="#top" className="upArrow"> </a>
+      <a rel="noreferrer" href="#top" className="upArrow">
+        {" "}
+      </a>
       <footer className="footer-container">
-        <p>Copyright &copy; 2024. All rights reserved.</p>
+        <p>Copyright &copy; 2025. All rights reserved.</p>
         <p>
           {" "}
           Developed by{" "}
@@ -39,7 +42,10 @@ const Footer = ({ id }) => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/vaishali-react12/"
             target="_blank"
-          > Vaishali</a>
+          >
+            {" "}
+            Vaishali
+          </a>
           .
         </p>
       </footer>

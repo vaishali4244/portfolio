@@ -34,13 +34,13 @@ const Hero = ({ id }) => {
           I am a{" "}
           <Typewriter
             words={[
-              "NextJs Developer .",
-              "ReactJS Developer .",
-              "React Native Developer .",
-              "Fron End Developer .",
-              "Web Developer .",
-              "JavaScript Developer .",
-              "MERN Stack Developer .",
+              "NextJs Developer.",
+              "ReactJS Developer.",
+              "React Native Developer.",
+              "Front End Developer.",
+              "Web Developer.",
+              "JavaScript Developer.",
+              "MERN Stack Developer.",
             ]}
             loop={false}
             cursor

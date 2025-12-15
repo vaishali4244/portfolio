@@ -61,7 +61,7 @@ const Timeline = ({ workIcon, eduIcon }) => {
                 contentArrowStyle={{
                   borderRight: "7px solid  rgb(33, 150, 243)",
                 }}
-                date={`July, 2022 - Present`}
+                date={`Oct, 2025 - Present`}
                 textClassName={"geee"}
                 iconStyle={{
                   background: "rgb(33, 150, 243)",
@@ -73,7 +73,45 @@ const Timeline = ({ workIcon, eduIcon }) => {
                 icon={workIcon}
               >
                 <h3 className="vertical-timeline-element-title job-title">
-                  Junior Web Developer
+                  Software Engineer
+                </h3>
+                <p className="vertical-timeline-element-subtitle ">
+                  Pulselink Innovations Pvt Ltd
+                  <span className="location">{"Noida"}</span>
+                </p>
+                <li>
+                  Collaborates closely with backend engineers to design robust
+                  APIs, define contracts, and integrate RESTApi endpoints.
+                </li>
+                <li>
+                  Implement resilient data-fetching, caching, and error handling
+                  using RTK Query to reduce redundant calls and improve
+                  perceived UI responsiveness.
+                </li>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                // key={data?._id}
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "rgb(33, 150, 243)",
+                  color: "#fff",
+                }}
+                contentArrowStyle={{
+                  borderRight: "7px solid  rgb(33, 150, 243)",
+                }}
+                date={`July, 2022 - July, 2025`}
+                textClassName={"geee"}
+                iconStyle={{
+                  background: "rgb(33, 150, 243)",
+                  color: "#fff",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                icon={workIcon}
+              >
+                <h3 className="vertical-timeline-element-title job-title">
+                  Software Developer
                 </h3>
                 <p className="vertical-timeline-element-subtitle ">
                   Eloop Dev Solutions LLP
@@ -90,72 +128,7 @@ const Timeline = ({ workIcon, eduIcon }) => {
                   and Trello.
                 </li>
               </VerticalTimelineElement>
-              {/* <VerticalTimelineElement
-                // key={data?._id}
-                className="vertical-timeline-element--work"
-                contentStyle={{
-                  background: "rgb(33, 150, 243)",
-                  color: "#fff",
-                }}
-                contentArrowStyle={{
-                  borderRight: "7px solid  rgb(33, 150, 243)",
-                }}
-                date={`May, 2024 - June, 2024`}
-                textClassName={"geee"}
-                iconStyle={{
-                  background: "rgb(33, 150, 243)",
-                  color: "#fff",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                icon={workIcon}
-              >
-                <h3 className="vertical-timeline-element-title job-title">
-                  Web Developer Intern
-                </h3>
-                <p className="vertical-timeline-element-subtitle">
-                  Coding Samurai
-                  <span className="location">{}</span>
-                </p>
-                <li>
-                  Collaborated cross-functionally to implement responsive MERN
-                  Stack applications for seamless user experiences.
-                </li>
-              </VerticalTimelineElement> */}
-              {/* <VerticalTimelineElement
-                // key={data?._id}
-                className="vertical-timeline-element--work"
-                contentStyle={{
-                  background: "rgb(33, 150, 243)",
-                  color: "#fff",
-                }}
-                contentArrowStyle={{
-                  borderRight: "7px solid  rgb(33, 150, 243)",
-                }}
-                date={`Oct, 2023 - March, 2024`}
-                textClassName={"geee"}
-                iconStyle={{
-                  background: "rgb(33, 150, 243)",
-                  color: "#fff",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                icon={workIcon}
-              >
-                <h3 className="vertical-timeline-element-title job-title">
-                  Front End Developer Intern
-                </h3>
-                <p className="vertical-timeline-element-subtitle">
-                  Indinterns
-                  <span className="location">{}</span>
-                </p>
-                <li>
-                  Contributed to optimizing and code maintainability utilizing
-                  ReactJS, JavaScript, CSS3, and HTML5.
-                </li>
-              </VerticalTimelineElement> */}
+
               <VerticalTimelineElement
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               />

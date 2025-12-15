@@ -60,11 +60,12 @@ const About = ({ id }) => {
               // repeat: Infinity,
             }}
           >
-            I’m a React.js Developer with 3 years of hands-on experience
+            I’m a React.js Developer with 3+ years of hands-on experience
             building scalable and responsive web applications using modern
-            technologies like React.js, Next.js, Redux Toolkit, Zustand,
-            TypeScript, and Tailwind CSS. I hold an M.Tech in Electronics and
-            Communication Engineering from NIT Kurukshetra, India.
+            technologies like React.js, Next.js, JavaScript, Redux Toolkit,
+            Zustand, TypeScript, and Tailwind CSS. I hold an M.Tech in
+            Electronics and Communication Engineering from NIT Kurukshetra,
+            India.
           </motion.p>
           <motion.p
             initial={{ scale: 0.1 }}
