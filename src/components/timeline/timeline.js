@@ -61,7 +61,7 @@ const Timeline = ({ workIcon, eduIcon }) => {
                 contentArrowStyle={{
                   borderRight: "7px solid  rgb(33, 150, 243)",
                 }}
-                date={`Aug, 2025 - Present`}
+                date={`Oct, 2025 - Present`}
                 textClassName={"geee"}
                 iconStyle={{
                   background: "rgb(33, 150, 243)",
