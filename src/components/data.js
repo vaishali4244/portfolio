@@ -1,8 +1,45 @@
 export const data = [
   {
+    source: require("../assets/images/befreecom.png"),
+    alt: "befree community",
+    title: "Befree Community - Social Events Platform",
+    skills: [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "RTK query",
+      "Firebase",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Razorpay Integration",
+      "SEO",
+    ],
+    live: "https://www.thebefree.com/",
+    // code: "https://github.com/vaishali4244/hotel-booking",
+  },
+  {
+    source: require("../assets/images/befreein.png"),
+    alt: "Befree event-ticketing platform ",
+    title: "Befree Event-Ticketing Platform ",
+    skills: [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "RTK query",
+      "Firebase",
+      "Tailwind CSS",
+      "Framer Motion",
+      "SEO",
+    ],
+    live: "https://www.thebefree.in/",
+    // code: "https://github.com/vaishali4244/hotel-booking",
+  },
+  {
     source: require("../assets/images/diy.png"),
     alt: "travel-itinerary",
-    title: "Itinerary Creators – DIYTINERARY, Also Admin Panel",
+    title: "Itinerary Creators – DIYTINERARY, Admin Panel",
     skills: [
       "Next.js",
       "React.js",
@@ -336,17 +373,17 @@ export const skills = [
   
   {
     enabled: true,
-    name: "BootStrap",
+    name: "Firebase",
     sequence: 8,
     percentage: 95,
     image: {
       public_id: "1706287138776-slfc3e",
-      url: require("../assets/logo/bootstrap.png"),
+      url: require("../assets/logo/firebase.webp"),
       _id: "65b3e023b48589dfcae18289",
     },
     _id: "65b3e023b48589dfcae18288",
   },
-
+  
   {
     enabled: true,
     name: "Github",
@@ -385,8 +422,20 @@ export const skills = [
   },
   {
     enabled: true,
-    name: "Node.js",
+    name: "BootStrap",
     sequence: 12,
+    percentage: 95,
+    image: {
+      public_id: "1706287138776-slfc3e",
+      url: require("../assets/logo/bootstrap.png"),
+      _id: "65b3e023b48589dfcae18289",
+    },
+    _id: "65b3e023b48589dfcae18288",
+  },
+  {
+    enabled: true,
+    name: "Node.js",
+    sequence: 13,
     percentage: 92,
     image: {
       public_id: "1706286990341-tznh4",
@@ -397,8 +446,8 @@ export const skills = [
   },
   {
     enabled: false,
-    name: "Git",
-    sequence: 13,
+    name: "GitHub",
+    sequence: 14,
     percentage: 95,
     image: {
       public_id: "1706286842731-r0eyn",
@@ -411,7 +460,7 @@ export const skills = [
   {
     enabled: true,
     name: "Material UI",
-    sequence: 14,
+    sequence: 15,
     percentage: 95,
     image: {
       public_id: "1706287138776-slfc3e",
@@ -423,7 +472,7 @@ export const skills = [
   {
     enabled: true,
     name: "Figma",
-    sequence: 15,
+    sequence: 16,
     percentage: 95,
     image: {
       public_id: "1706287138776-slfc3e",
@@ -435,7 +484,7 @@ export const skills = [
   {
     enabled: false,
     name: "MongoDB",
-    sequence: 16,
+    sequence: 17,
     percentage: 70,
     image: {
       public_id: "1706286966065-p2yrx9",
@@ -447,7 +496,7 @@ export const skills = [
   {
     enabled: true,
     name: "Postman",
-    sequence: 17,
+    sequence: 18,
     percentage: 95,
     image: {
       public_id: "1706287138776-slfc3e",
